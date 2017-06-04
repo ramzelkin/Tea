@@ -1,0 +1,48 @@
+
+body {
+margin: 0;
+background-image: url('../img/papper-025.jpg');
+background-size: 100%;
+}
+
+header{
+
+margin-top: -17px;
+background-color: #00CC66;
+height: 50px;
+/* border-bottom: 8px solid #6FA749; */
+}
+h2 {
+color: #F4D877;
+}
+ul.menu_main>li {
+display: inline-block;
+border-left: 2px solid;
+border-right: 2px solid;
+margin: 15px 7px;
+color: #F6F9F9;
+padding: 0 5px;
+font-size: 1em;
+font-family: lucida console;
+}
+ul.menu_main>li:hover {
+color: #F6DD90;
+cursor: pointer;
+}
+.image {
+position: absolute;
+top: 10px;
+left: 40px;
+background-image: url('../img/listok-1.png');
+height: 30px;
+width: 51px;
+
+}
+
+
+
+ul.menu_main {
+display: flex;
+justify-content: flex-end;
+align-content: center;
+}
