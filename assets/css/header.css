@@ -46,3 +46,11 @@ display: flex;
 justify-content: flex-end;
 align-content: center;
 }
+footer {
+height: 40px;
+background-color: #00CC66;
+position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
