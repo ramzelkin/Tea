@@ -1,8 +1,9 @@
 
 body {
 margin: 0;
-background-image: url('../img/papper-025.jpg');
+background-image: url('../img/paper_background.jpg');
 background-size: 100%;
+background-color: rgba(244, 231, 203, 0.7);
 }
 
 header{
@@ -11,6 +12,7 @@ margin-top: -17px;
 background-color: #00CC66;
 height: 50px;
 /* border-bottom: 8px solid #6FA749; */
+
 }
 h2 {
 color: #F4D877;
@@ -33,12 +35,10 @@ cursor: pointer;
 position: absolute;
 top: 10px;
 left: 40px;
-background-image: url('../img/listok-1.png');
+background-image: url('../img/listok_header.png');
 height: 30px;
 width: 51px;
-
 }
-
 
 
 ul.menu_main {
@@ -46,11 +46,23 @@ display: flex;
 justify-content: flex-end;
 align-content: center;
 }
+
 footer {
+
 height: 40px;
 background-color: #00CC66;
-position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+z-index: 1;
+	
+	color: #222;
+	position: relative;
+	width:100%;
+	margin: 0 auto;
+  
 }
+.copywrite {
+display: flex;
+justify-content: center;
+
+}
+
+

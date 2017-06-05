@@ -6,6 +6,7 @@ max-width: 1080px;
 margin: auto;
 background-color: rgba(244, 231, 203, 0.7);
 
+
 }
 p {
 padding: 0 15px;
@@ -23,7 +24,11 @@ height: 300px;
 float: left;
 margin: 0 15px 5px 0;
 }
-
+img.veki {
+float: right;
+height: 225px;
+width: 300px;
+}
 
 .subchapter_history_knopki>li {
 display: inline-block;
