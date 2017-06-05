@@ -34,7 +34,7 @@ cursor: pointer;
 .image {
 position: absolute;
 top: 10px;
-left: 40px;
+left: 30px;
 background-image: url('../img/listok_header.png');
 height: 30px;
 width: 51px;
@@ -64,5 +64,88 @@ display: flex;
 justify-content: center;
 
 }
+.hidden-menu {
+display: none;
+}
+input {
+display: none;
+}
+
+@media screen and (max-width: 870px) {
+		/* mobile*/
+		.image {
+		position: absolute;
+		top: 0px;
+		}
+		
+		.hidden-menu {
+        display: block;
+        position: fixed;
+        list-style:none;
+        padding: 10px;      
+         margin: 0;
+        box-sizing: border-box;
+        width: 200px;
+       background-color: rgba(244, 231, 203, 1);
+       height: 100%;
+       top: 0;
+       right: -200px;
+       transition: right .2s;
+       z-index: 2;
+       -webkit-transform: translateZ(0);
+       -webkit-backface-visibility: hidden;
+}
+      
+
+     .btn-menu {
+      color: #fff;
+      background-color: #00CC66;
+      padding: 5px;
+      position: fixed;
+     top: -2px;
+     right: 5px;
+  
+     z-index: 3;
+     width: 25px;
+      -webkit-transform: translateZ(0);
+     -webkit-backface-visibility: hidden;
+}
+    .btn-menu span {
+     display: block;
+     height: 5px;
+     background-color: #fff;
+     margin: 5px 0 0;
+     transition: all .1s linear .23s;
+     position: relative;
+}
+    .btn-menu span.first {
+     margin-top: 0;
+}
+    .hidden-menu-ticker:checked ~ .btn-menu {
+     right: 10px;
+}
+    .hidden-menu-ticker:checked ~ .hidden-menu {
+     right: 0;
+} 
+    .hidden-menu-ticker:checked ~ .btn-menu span.first {
+    -webkit-transform: rotate(45deg);
+     top: 10px;
+}
+   .hidden-menu-ticker:checked ~ .btn-menu span.second {
+    opacity: 0;
+} 
+
+   .hidden-menu-ticker:checked ~ .btn-menu span.third {
+  -webkit-transform: rotate(-45deg);
+  top: -10px;
+		}
+		ul.menu_main>li {
+		display: none;
+		}
+		ul.menu_main {
+		display: none;
+		}
+		
+		}
 
 
