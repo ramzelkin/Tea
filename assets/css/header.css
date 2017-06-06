@@ -1,4 +1,6 @@
-
+html {
+overflow-x: hidden;
+}
 body {
 margin: 0;
 background-image: url('../img/paper_background.jpg');
@@ -11,7 +13,7 @@ position: relative;
 margin-top: -17px;
 background-color: #00CC66;
 height: 60px;
-/* border-bottom: 8px solid #6FA749; */
+width: 100%;
 }
 
 @font-face {
