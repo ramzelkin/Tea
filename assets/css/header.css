@@ -22,8 +22,8 @@ height: 60px;
 
 .name {
 position: absolute;
-top: -35px; 
-left: 60px;
+top: -15px; 
+left: 70px;
 color: #F4D877;
 font-family: RussoOne-Regular;
 font-size: 36px;
@@ -46,7 +46,7 @@ cursor: pointer;
 .image {
 position: absolute;
 top: 20px;
-left: 30px;
+left: 10px;
 background-image: url('../img/listok_header.png');
 height: 30px;
 width: 51px;
@@ -81,25 +81,47 @@ justify-content: center;
 input {
 display: none;
 }
-@media screen and (max-width: 800px) and (min-width: 480px) {
+@media screen and (max-width: 950px) and (min-width: 480px) {
         /* tablet */ 
        
-        .menu_main {
-        display: inline;
+       .image{
+      display: none;
+       }
+       .name {
+       left: 5px;
+       }
+       
+ .menu_main {
+        margin-top: 20px;
+        margin-left: 35px;
         }
+
         
  ul.menu_main li {
+        display: inline;
 		font-size: 14px;
-		border: 0px;
-		width: 100px;
+		border: 1px solid;
+		width: 180px;
+		text-align: center;
+		/* padding: 0; */
+		margin-right: 0px;
+		white-space: nowrap;
+		
 		}
         
         
+        }
+        @media screen and (max-width: 730px)  {
         
+        .menu_main {
+        margin-top: 20px;
+        margin-left: 35px;
+        }
+        ul.menu_main li {
+        margin: 0;
+        padding: 0;
         
-        
-        
-        
+        }
         
         }
 
