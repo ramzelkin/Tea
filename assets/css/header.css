@@ -4,6 +4,7 @@ overflow-x: hidden;
 body {
 margin: 0;
 background-image: url('../img/paper_background.jpg');
+
 background-size: 100%;
 background-color: rgba(244, 231, 203, 0.7);
 }
@@ -20,7 +21,17 @@ width: 100%;
     font-family: RussoOne-Regular;
     src: url('../fonts/RussoOne-Regular.ttf');
 }
-
+ a { 
+    text-decoration: none;
+    font-size: 1em;
+font-family: lucida console;
+color: #F6F9F9;
+   } 
+   
+a:hover {
+color: #F6DD90;
+cursor: pointer;
+}
 
 .name {
 position: absolute;
@@ -163,8 +174,8 @@ display: none;
       color: #fff;
       background-color: #00CC66;
       padding: 5px;
-      position: fixed;
-     top: 2px;
+      position: absolute;
+     top: 20px;
      right: 5px;
   
      z-index: 3;
