@@ -22,16 +22,17 @@ height: 50px;
 
 .name {
 position: absolute;
-top: -20px; 
+top: -36px; 
 left: 60px;
 color: #F4D877;
 font-family: RussoOne-Regular;
+font-size: 36px;
 }
 ul.menu_main>li {
 display: inline-block;
 border-left: 2px solid;
 border-right: 2px solid;
-margin: 15px 7px;
+margin: 18px 7px;
 color: #F6F9F9;
 padding: 0 5px;
 font-size: 1em;
