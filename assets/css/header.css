@@ -7,15 +7,25 @@ background-color: rgba(244, 231, 203, 0.7);
 }
 
 header{
-
+position: relative;
 margin-top: -17px;
 background-color: #00CC66;
 height: 50px;
 /* border-bottom: 8px solid #6FA749; */
-
 }
-h2 {
+
+@font-face {
+    font-family: RussoOne-Regular;
+    src: url('../fonts/RussoOne-Regular.ttf');
+}
+
+
+.name {
+position: absolute;
+top: -20px; 
+left: 60px;
 color: #F4D877;
+font-family: RussoOne-Regular;
 }
 ul.menu_main>li {
 display: inline-block;
@@ -45,18 +55,14 @@ width: 51px;
 
 
 .menu_main {
-margin-left: 100px;
+margin-left: 210px;
+
 }
-
-
-
-
 
 footer {
 
 height: 40px;
 background-color: #00CC66;
-z-index: 1;
 	
 	color: #222;
 	position: relative;
@@ -73,14 +79,33 @@ justify-content: center;
 input {
 display: none;
 }
+@media screen and (max-width: 800px) and (min-width: 480px) {
+        /* tablet */ 
+       
+        .menu_main {
+        display: inline;
+        }
+        
+ ul.menu_main li {
+		font-size: 14px;
+		border: 0px;
+		width: 100px;
+		}
+        
+        
+        
+        
+        
+        
+        
+        
+        }
 
 @media screen and (max-width: 479px) {
 		/* mobile*/
 		.image {
-		position: absolute;
-		top: 0px;
+		top: 20px;
 		}
-		
 		
 		.menu_main {
         display: block;
