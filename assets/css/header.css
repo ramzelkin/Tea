@@ -81,7 +81,7 @@ justify-content: center;
 input {
 display: none;
 }
-@media screen and (max-width: 950px) and (min-width: 480px) {
+@media screen and (max-width: 950px)  {
         /* tablet */ 
        
        .image{
@@ -135,10 +135,10 @@ display: none;
         display: block;
         position: fixed;
         list-style:none;
-        padding: 20px;      
+        padding: 35px 5px 0 5px;      
          margin: 0;
         box-sizing: border-box;
-        width: 200px;
+        width: 170px;
        background-color: rgba(244, 231, 203, 1);
        height: 100%;
        top: 0;
@@ -154,6 +154,7 @@ display: none;
 		font-size: 14px;
 		border: 0px;
 		width: 200px;
+		height: 35px;
 		}
 
      .btn-menu {
