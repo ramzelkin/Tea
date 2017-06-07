@@ -51,11 +51,10 @@ list-style: none;
 }
 .subchapter_history {
 margin: 5px 50px 35px -15px;
- 
 }
 
 .subchapter_history_knopki>li:hover {
-color: #F6DD90;
+color: #F9B26F;
 cursor: pointer;
 }
 
@@ -98,6 +97,11 @@ font-size: 14px;
 color: #00C166;
 text-shadow: white 0 0 2px;
 margin-left: 20px;
+}
+
+.tea_rus_links a:hover {
+cursor: pointer;
+color: #F9B26F;
 }
 img.mongol-tea {
 float: left;
