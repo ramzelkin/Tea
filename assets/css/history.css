@@ -36,7 +36,7 @@ float: left;
 }
 
 .subchapter_history_knopki>li {
-display: inline;
+/* display: inline; */
 white-space: nowrap;
 background: linear-gradient(to left, #F4E7CB, #fff);
 height: 20px;
@@ -46,10 +46,12 @@ text-align: center;
 font-family: lucida console;
 font-size: 1em;
 margin-right: 25px;
+margin-bottom: 5px;
+list-style: none;
 }
 .subchapter_history {
-margin: 0 50px 35px 50px;
- width: 1080px;
+margin: 5px 50px 35px -15px;
+ 
 }
 
 .subchapter_history_knopki>li:hover {
@@ -79,11 +81,38 @@ display: block;
 input#rus:not(checked)~div.rus {
 display: none;
 }
+.tea_rus_links {
+float: right;
+height: 210px;
+width: 260px;
+background-color: rgba(244, 231, 203, 0.8); 
+padding: 0 5px;
+box-shadow: -2px 10px 25px -3px rgba(69,112,61,1);
+margin: 15px 10px;
+}
 .tea_rus_links a {
 display: block;
 text-decoration: none;
 font-family: lucida sans unicode;
 font-size: 14px;
-color: #00CC66;
-    text-shadow: white 0 0 2px;
+color: #00C166;
+text-shadow: white 0 0 2px;
+margin-left: 20px;
+}
+img.mongol-tea {
+float: left;
+margin-left: -12px ;
+height: 142px;
+width: 190px;
+}
+img.vasnezov {
+float: right;
+width: 400px;
+height: 248px;
+margin: 2px -3px -9px 0;
+}
+p.soderjanie {
+margin: -5px 0 5px 0;
+text-align: center;
+color: #008E66;
 }
