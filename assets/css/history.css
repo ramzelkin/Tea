@@ -79,3 +79,11 @@ display: block;
 input#rus:not(checked)~div.rus {
 display: none;
 }
+.tea_rus_links a {
+display: block;
+text-decoration: none;
+font-family: lucida sans unicode;
+font-size: 14px;
+color: #00CC66;
+    text-shadow: white 0 0 2px;
+}
