@@ -80,18 +80,51 @@ height: 289px;
 width: 300px;
 background-image: url('../img/afrika_tea.png');
 }
-.about {
-padding-top: 295px;
-text-align: center;
-color: #00CC66;
-}
-.about:hover~.description {
+
+.green:hover~.description {
 display: block;
+cursor: pointer;
 background-color: rgba(244, 231, 203, 0.8);
-margin-top: -340px;
-animation: description 1s
+margin-top: -300px;
+animation: description 1s;
+}
+.black:hover~.description {
+display: block;
+cursor: pointer;
+background-color: rgba(244, 231, 203, 0.8);
+margin-top: -300px;
+animation: description 1s;
+}
+.white:hover~.description {
+display: block;
+cursor: pointer;
+background-color: rgba(244, 231, 203, 0.8);
+margin-top: -180px;
+animation: description 1s;
+}
+.yellow:hover~.description {
+display: block;
+cursor: pointer;
+background-color: rgba(244, 231, 203, 0.8);
+margin-top: -180px;
+animation: description 1s;
+}
+.oolong:hover~.description {
+display: block;
+cursor: pointer;
+background-color: rgba(244, 231, 203, 0.8);
+margin-top: -300px;
+animation: description 1s; 
+}
+.puer:hover~.description {
+display: block;
+cursor: pointer;
+background-color: rgba(244, 231, 203, 0.8);
+margin-top: -300px;
+animation: description 1s; 
 }
 .description {
+text-align: center;
 display: none;
 }
 
