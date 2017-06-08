@@ -3,7 +3,7 @@ height: 300px;
 width: 300px;
 background-image: url('../img/green_tea.png');
 }
-h2 {
+.strana {
 text-align: center;
 margin: 30px 0;
 }
@@ -202,3 +202,27 @@ display: none;
         		 }
 
 }
+@media screen and (max-width: 479px)  {
+        /* tablet */ 
+        .strana, .zaglavie {
+        padding-top: 20px;
+        }
+        .zaglavie {
+       margin: 0 20% 0 20%; 
+        }
+        .common {
+        margin: 0 15%;
+        flex-direction: column;
+
+}
+.modul {
+height: 250px;
+width: 300px;
+margin: 10px 0 0 0;
+}
+h3 {
+margin: 0;
+}
+        
+        
+        }
