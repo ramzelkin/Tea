@@ -33,6 +33,7 @@ justify-content: space-around;
 .black {
 height: 300px;
 width: 300px;
+margin: -30px 0;
 background-image: url('../img/black_tea.png');
 }
 .white {
@@ -41,8 +42,9 @@ width: 300px;
 background-image: url('../img/white_tea.png');
 }
 .yellow {
-height: 200px;
+height: 180px;
 width: 300px;
+margin: 30px 0;
 background-image: url('../img/yellow_tea.png');
 }
 .oolong {
@@ -73,6 +75,7 @@ background-image: url('../img/ceylon_tea.png');
 .japan {
 height: 200px;
 width: 200px;
+margin: 0 15%;
 background-image: url('../img/japan_tea.png');
 }
 .afrika {
@@ -80,6 +83,7 @@ height: 289px;
 width: 300px;
 background-image: url('../img/afrika_tea.png');
 }
+
 
 .green:hover~.description {
 display: block;
@@ -92,7 +96,7 @@ animation: description 1s;
 display: block;
 cursor: pointer;
 background-color: rgba(244, 231, 203, 0.8);
-margin-top: -300px;
+margin-top: -280px;
 animation: description 1s;
 }
 .white:hover~.description {
@@ -106,7 +110,7 @@ animation: description 1s;
 display: block;
 cursor: pointer;
 background-color: rgba(244, 231, 203, 0.8);
-margin-top: -180px;
+margin-top: -210px;
 animation: description 1s;
 }
 .oolong:hover~.description {
@@ -123,8 +127,62 @@ background-color: rgba(244, 231, 203, 0.8);
 margin-top: -300px;
 animation: description 1s; 
 }
+.india:hover~.description+pre {
+display: block;
+cursor: pointer;
+font-family: lucida sans unicode;
+text-align: justify;
+font-size: 1em;
+background-color: rgba(244, 231, 203, 0.8);
+margin-top: -120px;
+animation: description 1s; 
+}
+.afrika:hover~.description+pre {
+display: block;
+cursor: pointer;
+font-family: lucida sans unicode;
+text-align: justify;
+font-size: 1em;
+background-color: rgba(244, 231, 203, 0.8);
+margin-top: -250px;
+animation: description 1s; 
+}
+.ceylon:hover~.description+pre {
+display: block;
+cursor: pointer;
+font-family: lucida sans unicode;
+text-align: justify;
+font-size: 1em;
+background-color: rgba(244, 231, 203, 0.8);
+margin-top: -200px;
+animation: description 1s; 
+}
+.japan:hover~.description+pre {
+display: block;
+cursor: pointer;
+font-family: lucida sans unicode;
+text-align: justify;
+font-size: 1em;
+background-color: rgba(244, 231, 203, 0.8);
+margin-top: -200px;
+animation: description 1s; 
+}
+.china:hover~.description+pre {
+display: block;
+cursor: pointer;
+font-family: lucida sans unicode;
+text-align: justify;
+font-size: 1em;
+background-color: rgba(244, 231, 203, 0.8);
+margin-top: -220px;
+animation: description 1s; 
+}
 .description {
 text-align: center;
+display: none;
+
+}
+pre {
 display: none;
 }
 
