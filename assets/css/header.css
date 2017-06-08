@@ -64,7 +64,12 @@ background-image: url('../img/listok_header.png');
 height: 30px;
 width: 51px;
 }
-
+p {
+padding: 0 15px;
+font-family: lucida sans unicode;
+text-align: justify;
+font-size: 1em;
+}
 
 .history {
 
