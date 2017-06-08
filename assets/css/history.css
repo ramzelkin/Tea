@@ -39,7 +39,7 @@ font-size: 17px;
 margin-right: 25px;
 margin-bottom: 5px;
 list-style: none;
-color: #DDC149; /* Цвет текста, совпадает с цветом фона */
+color: #DDC149;
     text-shadow: #fff -1px -1px 0, 
                  #333 1px 1px 0;
 }
