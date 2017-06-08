@@ -66,7 +66,14 @@ width: 51px;
 }
 
 
+.history {
 
+max-width: 1080px;
+margin: auto;
+background-color: rgba(244, 231, 203, 0.7);
+
+
+}
 
 .menu_main {
 margin-top: 5px;

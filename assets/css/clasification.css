@@ -1,0 +1,24 @@
+.green {
+height: 300px;
+width: 300px;
+background-image: url('../img/green_tea.png');
+}
+
+.modul {
+height: 370px;
+width: 300px;
+border: 1px solid;
+}
+h3 {
+text-align: center;
+}
+.common {
+display: flex;
+justify-content: space-between;
+
+}
+.black {
+height: 300px;
+width: 300px;
+background-image: url('../img/black_tea.png');
+}

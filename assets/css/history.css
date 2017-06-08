@@ -1,13 +1,6 @@
 
  
-.history {
 
-max-width: 1080px;
-margin: auto;
-background-color: rgba(244, 231, 203, 0.7);
-
-
-}
 p {
 padding: 0 15px;
 font-family: lucida sans unicode;
@@ -42,7 +35,7 @@ height: 20px;
 width: 200px; 
 text-align: center;
 font-family: lucida console;
-font-size: 1em;
+font-size: 17px;
 margin-right: 25px;
 margin-bottom: 5px;
 list-style: none;
