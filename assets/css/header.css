@@ -225,8 +225,12 @@ display: none;
   top: -10px;
 		}
 		
-		a {
+		.menu_main a {
 		color: #00CC66;
+		}
+		.menu_main a:hover {
+		color: #F6DD90;
+		cursor: pointer;
 		}
 		
 		}
