@@ -13,12 +13,43 @@ h3 {
 text-align: center;
 }
 .common {
+margin-top: 10px;
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 
 }
 .black {
 height: 300px;
 width: 300px;
 background-image: url('../img/black_tea.png');
+}
+.white {
+height: 180px;
+width: 300px;
+background-image: url('../img/white_tea.png');
+}
+.yellow {
+height: 200px;
+width: 300px;
+background-image: url('../img/yellow_tea.png');
+}
+.oolong {
+height: 290px;
+width: 300px;
+background-image: url('../img/oolong.png');
+}
+.puer {
+height: 300px;
+width: 300px;
+background-image: url('../img/puer.png');
+}
+.india {
+height: 150px;
+width: 300px;
+background-image: url('../img/tea_india.png');
+}
+.china {
+height: 225px;
+width: 300px;
+background-image: url('../img/china_tea.png');
 }
