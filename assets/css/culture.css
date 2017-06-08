@@ -1,0 +1,46 @@
+.tea_ceremony {
+text-align: center;
+white-space: nowrap;
+margin: 20px 30%;
+}
+.china_ceremony {
+float: left;
+margin: 0 15px;
+}
+.japan_ceremony {
+float: right;
+margin: 0 15px;
+}
+strong {
+color: #00CC66;
+}
+
+ @media screen and (max-width: 730px)  {
+ iframe {
+		width: 450px;
+		height: 253px;
+		}
+ 
+ .tea_ceremony {
+margin: 20px 5%;
+white-space: normal;
+}
+ 
+ }
+
+
+@media screen and (max-width: 479px) {
+		/* mobile*/
+		.china_ceremony, .japan_ceremony{
+		clear: both;
+		}
+		iframe {
+		width: 350px;
+		height: 197px
+		}
+		.tea_ceremony {
+margin: 20px 5%;
+white-space: normal;
+}
+		
+		}
