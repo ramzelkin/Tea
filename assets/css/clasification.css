@@ -80,3 +80,34 @@ height: 289px;
 width: 300px;
 background-image: url('../img/afrika_tea.png');
 }
+.about {
+padding-top: 295px;
+text-align: center;
+color: #00CC66;
+}
+.about:hover~.description {
+display: block;
+background-color: rgba(244, 231, 203, 0.8);
+margin-top: -340px;
+animation: description 1s
+}
+.description {
+display: none;
+}
+
+@keyframes description {
+0% {
+         		opacity: 0;
+         	}
+         	25% {
+         		opacity: 0.3;
+        	     }
+        	 50% {
+        		 opacity: 0.6;
+         		 }
+         	100% {
+        		 opacity: 1;
+        		 animation-fill-mode: forwards;
+        		 }
+
+}
