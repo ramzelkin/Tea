@@ -70,6 +70,9 @@ display: block;
 input#rus:not(checked)~div.rus {
 display: none;
 }
+.tea_rus_links li {
+list-style-type: none
+}
 .tea_rus_links {
 float: right;
 height: 210px;
@@ -109,4 +112,21 @@ p.soderjanie {
 margin: -5px 0 5px 0;
 text-align: center;
 color: #008E66;
+}
+@media screen and (max-width: 730px)  {
+
+.subchapter_history_knopki>li{
+display: block;
+text-align: left;
+}
+}
+@media screen and (max-width: 510px) {
+.tea_rus_links li {
+display: none;
+}
+.tea_rus_links  {
+height: 20px;
+width: 150px;
+}
+
 }
