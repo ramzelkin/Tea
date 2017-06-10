@@ -77,7 +77,7 @@ list-style-type: none
 float: right;
 height: 210px;
 width: 260px;
-background-color: rgba(244, 231, 203, 0.8); 
+background-color: rgb(244, 231, 203); 
 padding: 0 5px;
 box-shadow: -2px 10px 25px -3px rgba(69,112,61,1);
 margin: 15px 10px;
@@ -121,12 +121,41 @@ text-align: left;
 }
 }
 @media screen and (max-width: 510px) {
+.strelka {
+   width: 0;
+   height: 0;
+   border: 7px solid transparent;
+  }
+   .strelka-top {
+   border-top-color: #00CC66;
+   border-bottom: 0;
+   margin: -20px 0 0 130px;
+  }
+  input#soderjanie:not(checked)~ul{
+  height: 20px;
+  width: 150px;
+  }
+  input#soderjanie:checked~ul{
+  height: 380px;
+  width: 150px;
+  }
+  input#soderjanie:checked~ul li{
+  display: block;
+  }
+  input#soderjanie:not(checked)~ul li{
+  display: none;
+  }
+  input:checked~ul div.strelka.strelka-top {
+  transform: rotate(180deg);
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out; 
+  }
+  
 .tea_rus_links li {
+background-color: rgb(244, 231, 203);
 display: none;
 }
-.tea_rus_links  {
-height: 20px;
-width: 150px;
-}
+
+ 
 
 }
