@@ -14,7 +14,6 @@ margin: 30px 40% 0 40%;
 .modul {
 height: 370px;
 width: 300px;
-<!-- border: 1px solid; -->
 }
 h3 {
 text-align: center;
@@ -83,6 +82,7 @@ height: 289px;
 width: 300px;
 background-image: url('../img/afrika_tea.png');
 }
+
 
 
 .green:hover~.description {
@@ -157,6 +157,7 @@ background-color: rgba(244, 231, 203, 0.8);
 margin-top: -200px;
 animation: description 1s; 
 }
+
 .japan:hover~.description+pre {
 display: block;
 cursor: pointer;
@@ -178,30 +179,75 @@ margin-top: -220px;
 animation: description 1s; 
 }
 .description {
+display: none;
 text-align: center;
 display: none;
-
+cursor: pointer;
+font-family: lucida sans unicode;
+text-align: justify;
+font-size: 1em;
+background-color: rgba(244, 231, 203, 0.8);
 }
 pre {
 display: none;
+cursor: pointer;
+font-family: lucida sans unicode;
+text-align: justify;
+font-size: 1em;
+background-color: rgba(244, 231, 203, 0.8);
 }
+ 
 
 @keyframes description {
 0% {
          		opacity: 0;
          	}
-         	25% {
-         		opacity: 0.3;
-        	     }
-        	 50% {
-        		 opacity: 0.6;
-         		 }
          	100% {
         		 opacity: 1;
         		 animation-fill-mode: forwards;
         		 }
 
 }
+
+
+
+ @media screen and (max-width: 800px)  {
+input {
+display: block;
+}
+ .common {
+ display: inline-block;
+ }
+ #label-japan {
+ height: 200px;
+width: 200px;
+ }
+ .more {
+ margin-bottom: -60px;
+ margin-left: 200px; 
+ }
+ 
+.green:hover~.description, .black:hover~.description,
+ .afrika:hover~.description+pre, .india:hover~.description+pre,
+ .puer:hover~.description, .china:hover~.description+pre,
+ .japan:hover~.description+pre, .ceylon:hover~.description+pre,
+ .oolong:hover~.description, .yellow:hover~.description,
+ .white:hover~.description {
+ display: none;
+ }
+ .description+pre {
+ animation: none;
+ }
+
+ input#japan:checked~.description+pre {
+ display: block;
+ }
+ input#japan:not(checked)~.description+pre {
+ display: none;
+ }
+ 
+ }
+
 @media screen and (max-width: 479px)  {
         /* tablet */ 
         .strana, .zaglavie {
