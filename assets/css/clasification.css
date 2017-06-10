@@ -113,6 +113,9 @@ background-color: rgba(244, 231, 203, 0.8);
 
 }
 @media screen  and (min-width: 801px){ 
+.more {
+display: none;
+}
 .green:hover~.description {
 display: block;
 cursor: pointer;
@@ -214,9 +217,7 @@ animation: description 1s;
 
 
  @media screen and (max-width: 800px)  {
-input {
-display: block;
-}
+
  .common {
  margin: 0 30%;
  display: inline-block;
@@ -226,19 +227,110 @@ display: block;
 width: 200px;
  }
  .more {
- margin-bottom: -60px;
- margin-left: 200px; 
+
+ color: #00CC66;
+ margin-bottom: -35px;
+ margin-left: 250px; 
  }
  
-
-.description+pre {
-animation: description none 0 ease 0 1 normal none running;
+.description {
+ /* margin: -80% 0 0 0; */
+ margin: -75% 0;
+ }
+.black~.description {
+margin: -85% 0;
 }
-
+.white~.description {
+margin: -55% 0;
+}
+.green~.description {
+margin: -95% 0;
+}
+.oolong~.description {
+margin: -95% 0;
+}
+.puer~.description {
+margin: -100% 0;
+}
+.description+pre {
+margin: -50% 0;
+}
+.afrika~.description+pre {
+margin: -90% 0;
+}
+.ceylon~.description+pre {
+margin: -70% 0;
+}
+.japan~.description+pre {
+margin: -70% 0;
+}
+.china~.description+pre {
+margin: -75% 0;
+}
+input#china:checked~.description+pre {
+ display: block;
+ }
+ input#china:not(checked)~.description+pre {
+ display: none;
+ }
+input#ceylon:checked~.description+pre {
+ display: block;
+ }
+ input#ceylon:not(checked)~.description+pre {
+ display: none;
+ }
+input#afrika:checked~.description+pre {
+ display: block;
+ }
+ input#afrika:not(checked)~.description+pre {
+ display: none;
+ }
+input#india:checked~.description+pre {
+ display: block;
+ }
+ input#india:not(checked)~.description+pre {
+ display: none;
+ }
  input#japan:checked~.description+pre {
  display: block;
  }
  input#japan:not(checked)~.description+pre {
+ display: none;
+ }
+ input#yellow:checked~.description {
+ display: block;
+ }
+ input#yellow:not(checked)~.description {
+ display: none;
+ }
+ input#black:checked~.description {
+ display: block;
+ }
+ input#black:not(checked)~.description {
+ display: none;
+ }
+ input#oolong:checked~.description {
+ display: block;
+ }
+ input#oolong:not(checked)~.description {
+ display: none;
+ }
+ input#white:checked~.description {
+ display: block;
+ }
+ input#white:not(checked)~.description {
+ display: none;
+ }
+ input#green:checked~.description {
+ display: block;
+ }
+ input#green:not(checked)~.description {
+ display: none;
+ }
+ input#puer:checked~.description {
+ display: block;
+ }
+ input#puer:not(checked)~.description {
  display: none;
  }
  
@@ -260,7 +352,7 @@ animation: description none 0 ease 0 1 normal none running;
 .modul {
 height: 250px;
 width: 300px;
-margin: 10px 0 0 0;
+margin: 0 0 30% 0;
 }
 h3 {
 margin: 0;
