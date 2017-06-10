@@ -83,8 +83,36 @@ width: 300px;
 background-image: url('../img/afrika_tea.png');
 }
 
+.description {
+display: none;
+text-align: center;
+cursor: pointer;
+font-family: lucida sans unicode;
+text-align: justify;
+font-size: 1em;
+background-color: rgba(244, 231, 203, 0.8);
+}
+pre {
+display: none;
+cursor: pointer;
+font-family: lucida sans unicode;
+text-align: justify;
+font-size: 1em;
+background-color: rgba(244, 231, 203, 0.8);
+}
+ 
 
+@keyframes description {
+0% {
+         		opacity: 0;
+         	}
+         	100% {
+        		 opacity: 1;
+        		 animation-fill-mode: forwards;
+        		 }
 
+}
+@media screen  and (min-width: 801px){ 
 .green:hover~.description {
 display: block;
 cursor: pointer;
@@ -158,16 +186,7 @@ margin-top: -200px;
 animation: description 1s; 
 }
 
-.japan:hover~.description+pre {
-display: block;
-cursor: pointer;
-font-family: lucida sans unicode;
-text-align: justify;
-font-size: 1em;
-background-color: rgba(244, 231, 203, 0.8);
-margin-top: -200px;
-animation: description 1s; 
-}
+
 .china:hover~.description+pre {
 display: block;
 cursor: pointer;
@@ -178,35 +197,18 @@ background-color: rgba(244, 231, 203, 0.8);
 margin-top: -220px;
 animation: description 1s; 
 }
-.description {
-display: none;
-text-align: center;
-display: none;
+.japan:hover~.description+pre {
+display: block;
+/* 
 cursor: pointer;
 font-family: lucida sans unicode;
 text-align: justify;
 font-size: 1em;
 background-color: rgba(244, 231, 203, 0.8);
+ */
+margin-top: -200px;
+animation: description 1s; 
 }
-pre {
-display: none;
-cursor: pointer;
-font-family: lucida sans unicode;
-text-align: justify;
-font-size: 1em;
-background-color: rgba(244, 231, 203, 0.8);
-}
- 
-
-@keyframes description {
-0% {
-         		opacity: 0;
-         	}
-         	100% {
-        		 opacity: 1;
-        		 animation-fill-mode: forwards;
-        		 }
-
 }
 
 
@@ -216,6 +218,7 @@ input {
 display: block;
 }
  .common {
+ margin: 0 30%;
  display: inline-block;
  }
  #label-japan {
@@ -227,17 +230,10 @@ width: 200px;
  margin-left: 200px; 
  }
  
-.green:hover~.description, .black:hover~.description,
- .afrika:hover~.description+pre, .india:hover~.description+pre,
- .puer:hover~.description, .china:hover~.description+pre,
- .japan:hover~.description+pre, .ceylon:hover~.description+pre,
- .oolong:hover~.description, .yellow:hover~.description,
- .white:hover~.description {
- display: none;
- }
- .description+pre {
- animation: none;
- }
+
+.description+pre {
+animation: description none 0 ease 0 1 normal none running;
+}
 
  input#japan:checked~.description+pre {
  display: block;
@@ -248,7 +244,7 @@ width: 200px;
  
  }
 
-@media screen and (max-width: 479px)  {
+@media screen and (max-width: 510px)  {
         /* tablet */ 
         .strana, .zaglavie {
         padding-top: 20px;

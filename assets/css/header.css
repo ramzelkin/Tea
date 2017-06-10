@@ -150,7 +150,7 @@ display: none;
         
         }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 510px) {
 		/* mobile*/
 		.image {
 		top: 20px;

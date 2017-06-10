@@ -29,7 +29,7 @@ white-space: normal;
  }
 
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 510px) {
 		/* mobile*/
 		.china_ceremony, .japan_ceremony{
 		clear: both;
