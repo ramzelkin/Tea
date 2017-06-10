@@ -139,10 +139,10 @@ text-align: left;
   height: 380px;
   width: 150px;
   }
-  input#soderjanie:checked~ul li{
+  input#soderjanie:checked~ul li>a {
   display: block;
   }
-  input#soderjanie:not(checked)~ul li{
+  input#soderjanie:not(checked)~ul li>a {
   display: none;
   }
   input:checked~ul div.strelka.strelka-top {
@@ -151,10 +151,6 @@ text-align: left;
   transition-timing-function: ease-out; 
   }
   
-.tea_rus_links li {
-background-color: rgb(244, 231, 203);
-display: none;
-}
 
  
 
