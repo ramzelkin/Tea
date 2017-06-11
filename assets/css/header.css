@@ -1,12 +1,28 @@
 html {
-overflow-x: hidden;
+	overflow-x: hidden;
+	height: 100%;
 }
 body {
-margin: 0;
-background-image: url('../img/paper_background_test.jpg');
+	margin: 0;
+	background-image: url('../img/paper_background_test.jpg');
 
-background-size: 100%;
-background-color: rgb(244, 231, 203);
+	background-size: 100%;
+	background-color: rgb(244, 231, 203);
+	height: 100%;
+}
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+}
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #00CC66;
+  text-align: center;
 }
 
 header{
@@ -76,7 +92,7 @@ font-size: 1em;
 max-width: 1080px;
 margin: auto;
 background-color: rgb(244, 231, 203);
-
+padding-bottom: 90px;
 
 }
 
@@ -86,22 +102,6 @@ float: right;
 
 }
 
-footer {
-
-height: 40px;
-background-color: #00CC66;
-	
-	color: #222;
-	position: relative;
-	width:100%;
-	margin: 0 auto;
-  
-}
-.copywrite {
-display: flex;
-justify-content: center;
-
-}
 
 input {
 display: none;
