@@ -1,19 +1,18 @@
 {
-    "name": "pgwslideshow",
-    "title": "PgwSlideshow",
-    "description": "Responsive slideshow / gallery / carousel",
+    "name": "pgwslider",
+    "title": "PgwSlider",
+    "description": "Responsive and lightweight Slider plugin for jQuery",
     "keywords": [
         "slider",
         "slideshow",
         "gallery",
-        "carousel",
         "responsive",
         "mobile",
         "image",
         "animation",
         "ui"
     ],
-    "version": "2.0.1",
+    "version": "2.3.0",
     "author": {
         "name": "Jonathan M. Piat"
     },
@@ -28,10 +27,10 @@
             "url": "http://opensource.org/licenses/gpl-3.0"
         }
     ],
-    "bugs": "https://github.com/Pagawa/PgwSlideshow/issues",
-    "homepage": "http://pgwjs.com/pgwslideshow",
-    "docs": "http://pgwjs.com/pgwslideshow",
-    "download": "http://pgwjs.com/pgwslideshow",
+    "bugs": "https://github.com/Pagawa/PgwSlider/issues",
+    "homepage": "http://pgwjs.com/pgwslider",
+    "docs": "http://pgwjs.com/pgwslider",
+    "download": "http://pgwjs.com/pgwslider",
     "dependencies": {
         "jquery": ">=1"
     }
