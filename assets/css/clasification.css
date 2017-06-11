@@ -1,7 +1,7 @@
 .green {
 height: 300px;
-width: 300px;
-background-image: url('../img/green_tea.png');
+width: 296px;
+background-image: url('../img/green_tea.jpg');
 }
 .strana {
 text-align: center;
@@ -33,54 +33,54 @@ justify-content: space-around;
 height: 300px;
 width: 300px;
 margin: -30px 0;
-background-image: url('../img/black_tea.png');
+background-image: url('../img/black_tea.jpg');
 }
 .white {
 height: 180px;
 width: 300px;
-background-image: url('../img/white_tea.png');
+background-image: url('../img/white_tea.jpg');
 }
 .yellow {
 height: 180px;
 width: 300px;
 margin: 30px 0;
-background-image: url('../img/yellow_tea.png');
+background-image: url('../img/yellow_tea.jpg');
 }
 .oolong {
-height: 290px;
+height: 286px;
 width: 300px;
-background-image: url('../img/oolong.png');
+background-image: url('../img/oolong.jpg');
 }
 .puer {
 height: 300px;
 width: 300px;
-background-image: url('../img/puer.png');
+background-image: url('../img/puer.jpg');
 }
 .india {
-height: 150px;
+height: 144px;
 width: 300px;
-background-image: url('../img/tea_india.png');
+background-image: url('../img/tea_india.jpg');
 }
 .china {
 height: 225px;
 width: 300px;
-background-image: url('../img/china_tea.png');
+background-image: url('../img/china_tea.jpg');
 }
 .ceylon {
 height: 200px;
 width: 300px;
-background-image: url('../img/ceylon_tea.png');
+background-image: url('../img/ceylon_tea.jpg');
 }
 .japan {
 height: 200px;
 width: 200px;
 margin: 0 15%;
-background-image: url('../img/japan_tea.png');
+background-image: url('../img/japan_tea.jpg');
 }
 .afrika {
 height: 289px;
 width: 300px;
-background-image: url('../img/afrika_tea.png');
+background-image: url('../img/afrika_tea.jpg');
 }
 
 .description {
