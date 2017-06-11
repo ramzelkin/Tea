@@ -38,9 +38,8 @@ width: 300px;
 
 
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 550px) {
 .contact_h2 {
-margin: 2% 0;
-white-space: normal;
+margin: 0;
 }
 }
