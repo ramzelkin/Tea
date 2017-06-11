@@ -113,6 +113,21 @@ margin: -5px 0 5px 0;
 text-align: center;
 color: #008E66;
 }
+img.kiahta {
+height: 183px;
+width: 270px;
+float: right;
+}
+img.karavan {
+float: left;
+height: 242px;
+width: 350px;
+}
+img.tea-kirpich {
+float: left;
+height: 240px;
+width: 400px;
+}
 @media screen and (max-width: 730px)  {
 
 .subchapter_history_knopki>li{
