@@ -168,14 +168,13 @@ background-color: rgba(244, 231, 203, 0.8);
 margin-top: -120px;
 animation: description 1s; 
 }
-.afrika:hover~.description+pre {
+.afrika:hover pre {
 display: block;
 cursor: pointer;
 font-family: lucida sans unicode;
 text-align: justify;
 font-size: 1em;
 background-color: rgba(244, 231, 203, 0.8);
-margin-top: -250px;
 animation: description 1s; 
 }
 .ceylon:hover~.description+pre {
