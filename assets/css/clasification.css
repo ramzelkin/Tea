@@ -1,8 +1,4 @@
-.green {
-height: 300px;
-width: 296px;
-background-image: url('../img/green_tea.jpg');
-}
+
 .zaglavie {
 text-align: center;
 margin: 3% 0;
@@ -24,7 +20,11 @@ font-size: 17px;
 margin-top: 10px;
 display: flex;
 justify-content: space-around;
-
+}
+.green {
+height: 300px;
+width: 296px;
+background-image: url('../img/green_tea.jpg');
 }
 .black {
 height: 300px;
@@ -89,15 +89,7 @@ text-align: justify;
 font-size: 1em;
 background-color: rgba(244, 231, 203, 0.8);
 }
-pre {
-display: none;
-cursor: pointer;
-font-family: lucida sans unicode;
-text-align: justify;
-font-size: 1em;
-background-color: rgba(244, 231, 203, 0.8);
-}
- 
+
 
 @keyframes description {
 0% {
@@ -137,23 +129,23 @@ animation: description 1s;
 display: block;
 animation: description 1s; 
 }
-.india:hover pre {
+.india:hover .description {
 display: block;
 animation: description 1s; 
 }
-.afrika:hover pre {
+.afrika:hover .description {
 display: block;
 animation: description 1s; 
 }
-.ceylon:hover pre {
+.ceylon:hover .description {
 display: block;
 animation: description 1s; 
 }
-.china:hover pre {
+.china:hover .description {
 display: block;
 animation: description 1s; 
 }
-.japan:hover pre {
+.japan:hover .description {
 display: block;
 animation: description 1s; 
 }
@@ -164,7 +156,6 @@ animation: description 1s;
  @media screen and (max-width: 800px)  {
 
  .common {
- margin: 0 30%;
  display: inline-block;
  }
  #label-japan {
@@ -178,70 +169,34 @@ width: 200px;
  margin-left: 250px; 
  }
  
-.description {
- /* margin: -80% 0 0 0; */
-/*  margin: -75% 0; */
- }
-/* 
-.black~.description {
-margin: -85% 0;
-}
-.white~.description {
-margin: -55% 0;
-}
-.green~.description {
-margin: -95% 0;
-}
-.oolong~.description {
-margin: -95% 0;
-}
-.puer~.description {
-margin: -100% 0;
-}
-.description+pre {
-margin: -50% 0;
-}
-.afrika~.description+pre {
-margin: -90% 0;
-}
-.ceylon~.description+pre {
-margin: -70% 0;
-}
-.japan~.description+pre {
-margin: -70% 0;
-}
-.china~.description+pre {
-margin: -75% 0;
-}
- */
-input#china:checked+div>.description+pre {
+input#china:checked+div>.description {
  display: block;
  }
- input#china:not(checked)+div>.description+pre {
+ input#china:not(checked)+div>.description {
  display: none;
  }
-input#ceylon:checked+div>.description+pre {
+input#ceylon:checked+div>.description {
  display: block;
  }
- input#ceylon:not(checked)+div>.description+pre {
+ input#ceylon:not(checked)+div>.description {
  display: none;
  }
-input#afrika:checked+div>.description+pre {
+input#afrika:checked+div>.description {
  display: block;
  }
- input#afrika:not(checked)+div>.description+pre {
+ input#afrika:not(checked)+div>.description {
  display: none;
  }
-input#india:checked+div>.description+pre {
+input#india:checked+div>.description {
  display: block;
  }
- input#india:not(checked)+div>.description+pre {
+ input#india:not(checked)+div>.description {
  display: none;
  }
- input#japan:checked+div>.description+pre {
+ input#japan:checked+div>.description {
  display: block;
  }
- input#japan:not(checked)+div>.description+pre {
+ input#japan:not(checked)+div>.description {
  display: none;
  }
  input#yellow:checked+div>.description {
@@ -285,19 +240,16 @@ input#india:checked+div>.description+pre {
 
 @media screen and (max-width: 510px)  {
         /* tablet */ 
-        .strana, .zaglavie {
-       /*  padding-top: -10%; */
-        }
 
         .common {
-        margin: 0 5%;
+       display: flex;
+       align-items: center;
         flex-direction: column;
-
 }
 .modul {
 height: 250px;
 width: 300px;
-margin: 0 0 30% 0;
+margin-bottom: 25%;
 }
 h3 {
 margin: 0;
