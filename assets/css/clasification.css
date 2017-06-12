@@ -84,49 +84,9 @@ background-color: rgba(244, 231, 203, 0.8);
 .more {
 display: none;
 }
-.green:hover .description {
+.appear:hover .description {
 display: block;
 animation: description 1s;
-}
-.black:hover .description {
-display: block;
-animation: description 1s;
-}
-.white:hover .description {
-display: block;
-animation: description 1s;
-}
-.yellow:hover .description {
-display: block;
-animation: description 1s;
-}
-.oolong:hover .description {
-display: block;
-animation: description 1s; 
-}
-.puer:hover .description {
-display: block;
-animation: description 1s; 
-}
-.india:hover .description {
-display: block;
-animation: description 1s; 
-}
-.afrika:hover .description {
-display: block;
-animation: description 1s; 
-}
-.ceylon:hover .description {
-display: block;
-animation: description 1s; 
-}
-.china:hover .description {
-display: block;
-animation: description 1s; 
-}
-.japan:hover .description {
-display: block;
-animation: description 1s; 
 }
 }
 
