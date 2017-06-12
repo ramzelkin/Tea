@@ -14,6 +14,7 @@ body {
 .wrapper {
   position: relative;
   min-height: 100%;
+
 }
 .footer {
   position: absolute;
@@ -30,7 +31,7 @@ position: relative;
 margin-top: -17px;
 background-color: #00CC66;
 height: 60px;
-width: 100%;
+ width: 100%;
 }
 
 @font-face {
@@ -89,7 +90,7 @@ font-size: 1em;
 
 .history {
 
-max-width: 1080px;
+ max-width: 1080px;
 margin: auto;
 background-color: rgb(244, 231, 203);
 padding-bottom: 90px;
@@ -152,10 +153,10 @@ display: none;
 
 @media screen and (max-width: 510px) {
 		/* mobile*/
+		
 		.image {
 		top: 20px;
 		}
-		
 		.menu_main {
         display: block;
         position: fixed;

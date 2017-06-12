@@ -3,17 +3,13 @@ height: 300px;
 width: 296px;
 background-image: url('../img/green_tea.jpg');
 }
-.strana {
-text-align: center;
-margin: 30px 0;
-}
 .zaglavie {
-white-space: nowrap;
-margin: 30px 40% 0 40%;
+text-align: center;
+margin: 3% 0;
 }
 .modul {
-height: 370px;
-width: 300px;
+height: 90%;
+width: 100%;
 }
 h3 {
 text-align: center;
@@ -22,6 +18,7 @@ text-shadow: #fff -1px -1px 0,
                  #333 1px 1px 0;
 font-family: lucida console;
 font-size: 17px;
+
 }
 .common {
 margin-top: 10px;
@@ -32,7 +29,7 @@ justify-content: space-around;
 .black {
 height: 300px;
 width: 300px;
-margin: -30px 0;
+margin-top: -10px;
 background-image: url('../img/black_tea.jpg');
 }
 .white {
@@ -43,7 +40,7 @@ background-image: url('../img/white_tea.jpg');
 .yellow {
 height: 180px;
 width: 300px;
-margin: 30px 0;
+margin: 40px 0 0 0;
 background-image: url('../img/yellow_tea.jpg');
 }
 .oolong {
@@ -116,99 +113,48 @@ background-color: rgba(244, 231, 203, 0.8);
 .more {
 display: none;
 }
-.green:hover~.description {
+.green:hover .description {
 display: block;
-cursor: pointer;
-background-color: rgba(244, 231, 203, 0.8);
-margin-top: -300px;
 animation: description 1s;
 }
-.black:hover~.description {
+.black:hover .description {
 display: block;
-cursor: pointer;
-background-color: rgba(244, 231, 203, 0.8);
-margin-top: -280px;
 animation: description 1s;
 }
-.white:hover~.description {
+.white:hover .description {
 display: block;
-cursor: pointer;
-background-color: rgba(244, 231, 203, 0.8);
-margin-top: -180px;
 animation: description 1s;
 }
-.yellow:hover~.description {
+.yellow:hover .description {
 display: block;
-cursor: pointer;
-background-color: rgba(244, 231, 203, 0.8);
-margin-top: -210px;
 animation: description 1s;
 }
-.oolong:hover~.description {
+.oolong:hover .description {
 display: block;
-cursor: pointer;
-background-color: rgba(244, 231, 203, 0.8);
-margin-top: -300px;
 animation: description 1s; 
 }
-.puer:hover~.description {
+.puer:hover .description {
 display: block;
-cursor: pointer;
-background-color: rgba(244, 231, 203, 0.8);
-margin-top: -300px;
 animation: description 1s; 
 }
-.india:hover~.description+pre {
+.india:hover pre {
 display: block;
-cursor: pointer;
-font-family: lucida sans unicode;
-text-align: justify;
-font-size: 1em;
-background-color: rgba(244, 231, 203, 0.8);
-margin-top: -120px;
 animation: description 1s; 
 }
 .afrika:hover pre {
 display: block;
-cursor: pointer;
-font-family: lucida sans unicode;
-text-align: justify;
-font-size: 1em;
-background-color: rgba(244, 231, 203, 0.8);
 animation: description 1s; 
 }
-.ceylon:hover~.description+pre {
+.ceylon:hover pre {
 display: block;
-cursor: pointer;
-font-family: lucida sans unicode;
-text-align: justify;
-font-size: 1em;
-background-color: rgba(244, 231, 203, 0.8);
-margin-top: -200px;
 animation: description 1s; 
 }
-
-
-.china:hover~.description+pre {
+.china:hover pre {
 display: block;
-cursor: pointer;
-font-family: lucida sans unicode;
-text-align: justify;
-font-size: 1em;
-background-color: rgba(244, 231, 203, 0.8);
-margin-top: -220px;
 animation: description 1s; 
 }
-.japan:hover~.description+pre {
+.japan:hover pre {
 display: block;
-/* 
-cursor: pointer;
-font-family: lucida sans unicode;
-text-align: justify;
-font-size: 1em;
-background-color: rgba(244, 231, 203, 0.8);
- */
-margin-top: -200px;
 animation: description 1s; 
 }
 }
@@ -234,8 +180,9 @@ width: 200px;
  
 .description {
  /* margin: -80% 0 0 0; */
- margin: -75% 0;
+/*  margin: -75% 0; */
  }
+/* 
 .black~.description {
 margin: -85% 0;
 }
@@ -266,70 +213,71 @@ margin: -70% 0;
 .china~.description+pre {
 margin: -75% 0;
 }
-input#china:checked~.description+pre {
+ */
+input#china:checked+div>.description+pre {
  display: block;
  }
- input#china:not(checked)~.description+pre {
+ input#china:not(checked)+div>.description+pre {
  display: none;
  }
-input#ceylon:checked~.description+pre {
+input#ceylon:checked+div>.description+pre {
  display: block;
  }
- input#ceylon:not(checked)~.description+pre {
+ input#ceylon:not(checked)+div>.description+pre {
  display: none;
  }
-input#afrika:checked~.description+pre {
+input#afrika:checked+div>.description+pre {
  display: block;
  }
- input#afrika:not(checked)~.description+pre {
+ input#afrika:not(checked)+div>.description+pre {
  display: none;
  }
-input#india:checked~.description+pre {
+input#india:checked+div>.description+pre {
  display: block;
  }
- input#india:not(checked)~.description+pre {
+ input#india:not(checked)+div>.description+pre {
  display: none;
  }
- input#japan:checked~.description+pre {
+ input#japan:checked+div>.description+pre {
  display: block;
  }
- input#japan:not(checked)~.description+pre {
+ input#japan:not(checked)+div>.description+pre {
  display: none;
  }
- input#yellow:checked~.description {
+ input#yellow:checked+div>.description {
  display: block;
  }
- input#yellow:not(checked)~.description {
+ input#yellow:not(checked)+div>.description {
  display: none;
  }
- input#black:checked~.description {
+ input#black:checked+div>.description {
  display: block;
  }
- input#black:not(checked)~.description {
+ input#black:not(checked)+div>.description {
  display: none;
  }
- input#oolong:checked~.description {
+ input#oolong:checked+div>.description {
  display: block;
  }
- input#oolong:not(checked)~.description {
+ input#oolong:not(checked)+div>.description {
  display: none;
  }
- input#white:checked~.description {
+ input#white:checked+div>.description {
  display: block;
  }
- input#white:not(checked)~.description {
+ input#white:not(checked)+div>.description {
  display: none;
  }
- input#green:checked~.description {
+ input#green:checked+div>.description {
  display: block;
  }
- input#green:not(checked)~.description {
+ input#green:not(checked)+div>.description {
  display: none;
  }
- input#puer:checked~.description {
+ input#puer:checked+div>.description {
  display: block;
  }
- input#puer:not(checked)~.description {
+ input#puer:not(checked)+div>.description {
  display: none;
  }
  
@@ -338,13 +286,11 @@ input#india:checked~.description+pre {
 @media screen and (max-width: 510px)  {
         /* tablet */ 
         .strana, .zaglavie {
-        padding-top: 20px;
+       /*  padding-top: -10%; */
         }
-        .zaglavie {
-       margin: 0 20% 0 20%; 
-        }
+
         .common {
-        margin: 0 15%;
+        margin: 0 5%;
         flex-direction: column;
 
 }
