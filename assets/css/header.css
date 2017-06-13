@@ -153,7 +153,9 @@ display: none;
 
 @media screen and (max-width: 510px) {
 		/* mobile*/
-		
+		p {
+		padding: 0;
+		}
 		.image {
 		top: 20px;
 		}
