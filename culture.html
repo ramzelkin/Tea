@@ -6,6 +6,8 @@
          <link rel="stylesheet" href="assets/css/header.css" type="text/css" />
           <link rel="stylesheet" href="./assets/css/culture.css" type="text/css" />
           <meta name="viewport" content="width=device-width, height=device-height, target-densitydpi=device-dpi, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+     <script src="./assets/js/okno.js"></script>
     </head>
     <body>
     <header>
@@ -28,7 +30,7 @@
    <li><a href="clasification.html">Разновидности</a></li>
    <li><a href="culture.html">Культура чаепития</a></li>
    <li><a href="health.html">Чай и здоровье</a></li>
-   <li><a href="contacts.html">Контакты</a></li>
+    <li><a href="#" id="go">Контакты</a></li>
    </ul>
 
  
@@ -37,8 +39,25 @@
  <h2 class="name">Teo</h2>
  </a>
 
+ <div id="modal_form">
+	<span id="modal_close">X</span>
+		<form action="" method="post">
+			<h2>Нам важно услышать всех!</h2>
+			<p>Здесь можно написать нам, поделиться впечателнями и добавить критики! Оставьте свой электронный адрес и сообщение в формах ниже.</p>
+			<p>Ваш электронный адрес<br />
+				<input class="okno" type="text" name="your-name" value="" size="40" />
+			</p>
+			<p>Сообщение<br />
+				<textarea rows="10" cols="45" name="text"></textarea>
+			</p>
+			<p style="text-align: center; padding-bottom: 10px;">
+				<input class="submit" type="submit" value="Отправить" />
+			</p>
+		</form>
+</div>
+<div id="overlay"></div>
+     </header> 
    
-    </header> 
  
      <div class="wrapper">
     <section class="history">
@@ -69,7 +88,7 @@
     
     </section>
     <div class="footer">
-     &copy 2017 all right reserved <a href="sitemap.html" title="открыть карту сайта">карта сайта</a>
+     &copy 2017 all right reserved <a href="sitemap.html" class="sitemap-site" title="открыть карту сайта">карта сайта</a>
     </div>
     
 <!--     wrapper -->
