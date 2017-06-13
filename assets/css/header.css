@@ -107,6 +107,11 @@ float: right;
 input {
 display: none;
 }
+@media all and (orientation: landscape) {
+p {
+padding: 0;
+}
+}
 @media screen and (max-width: 950px)  {
         /* tablet */ 
        
