@@ -129,6 +129,7 @@ height: 240px;
 width: 400px;
 }
 
+
 @media screen and (max-width: 730px)  {
 
 .subchapter_history_knopki>li{
@@ -171,10 +172,12 @@ text-align: left;
   img {
   clear: right;
   clear: left;
+  padding: 0;
+  margin: 0;
   }
 img.tea-way {
-width: 290px;
-height: 217px;
+width: 300px;
+height: 224px;
 }
 .tea_rus_links {
 display: none;
