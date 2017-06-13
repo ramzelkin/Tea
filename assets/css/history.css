@@ -51,7 +51,6 @@ cursor: pointer;
 input {
 display: none;
 }
-
 input#evropa:checked~div.evropa {
 display: block;
 }
