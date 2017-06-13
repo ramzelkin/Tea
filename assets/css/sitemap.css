@@ -1,5 +1,12 @@
 .sitemap>li>a {
 text-decoration: none;
 font-family: RussoOne-Regular;
-font-size: 24px;
+font-size: 20px;
+}
+ul.sitemap {
+list-style-image: url('../img/icon.png')
+}
+.sitemap-h1 {
+margin: 3% 0;
+text-align: center;
 }
