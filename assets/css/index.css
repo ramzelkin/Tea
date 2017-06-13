@@ -26,9 +26,6 @@ width: 100%;
 }
 
 @media screen and (max-width: 500px)  {
-.slideshow {
-display: none;
-}
 
 .main_text {
 
