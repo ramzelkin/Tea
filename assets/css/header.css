@@ -253,7 +253,7 @@ right: 10px;
         padding: 35px 5px 0 5px;      
          margin: 0;
         box-sizing: border-box;
-        width: /* 170px */ 50%;
+        width: 170px;
        background-color: rgba(244, 231, 203, 1);
        height: 100%;
        top: 0;
@@ -268,7 +268,7 @@ right: 10px;
 		color: #00CC66;
 		font-size: 14px;
 		border: 0px;
-		width: 100%;
+		width: 170px;
 		height: 35px;
 		}
 		
