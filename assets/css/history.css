@@ -51,6 +51,16 @@ cursor: pointer;
 input {
 display: none;
 }
+input#vostok:checked~ul li#vostok {
+background-color: #C3BC90;
+
+}
+input#evropa:checked~ul li#evropa {
+background-color: #C3BC90;
+}
+input#rus:checked~ul li#rus {
+background-color: #C3BC90;
+}
 input#evropa:checked~div.evropa {
 display: block;
 }

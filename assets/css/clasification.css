@@ -4,7 +4,7 @@ text-align: center;
 margin: 3% 0;
 }
 .modul {
-height: 90%;
+height: 100%;
 width: 100%;
 }
 h3 {
@@ -107,8 +107,10 @@ width: 200px;
  .more {
 
  color: #00CC66;
- margin-bottom: -35px;
+ 
+margin-bottom: -35px;
  margin-left: 250px; 
+
  }
 
  
@@ -188,7 +190,7 @@ input#india:checked+div>.description {
 .modul {
 height: 250px;
 width: 300px;
-margin-bottom: 25%;
+ margin-bottom: 25%;
 }
 h3 {
 margin: 0;
