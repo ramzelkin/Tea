@@ -5,12 +5,13 @@
 h2 {
 text-align: center;
 }
+img {
+padding: 2px 10px;
+}
 img.tea-way {
-padding-left: 15px;
 width: 400px;
 height: 300px;
 float: left;
-margin: 0 15px 5px 0;
 }
 img.veki {
 float: right;
@@ -27,7 +28,7 @@ float: left;
 display: inline;
 white-space: nowrap;
 height: 20px;
-width: 200px; 
+width: 205px; 
 text-align: center;
 font-family: lucida console;
 font-size: 17px;
@@ -137,7 +138,31 @@ float: left;
 height: 240px;
 width: 400px;
 }
-
+img.tea-ussr {
+float: left;
+height: 398px;
+width: 400px;
+}
+img.tea-wissozky {
+float: right;
+height: 313px;
+width: 380px;
+}
+img.east-india-company {
+float: right;
+height: 140px;
+width: 250px;
+}
+img.tea-ussr-2 {
+float: left;
+width: 350px;
+height: 244px;
+}
+img.tea-paketik {
+float: right;
+height: 170px;
+width: 240px;
+}
 
 @media screen and (max-width: 730px)  {
 
@@ -147,48 +172,32 @@ text-align: left;
 }
 }
 @media screen and (max-width: 510px) {
-/* 
-.strelka {
-   width: 0;
-   height: 0;
-   border: 7px solid transparent;
-  }
-   .strelka-top {
-   border-top-color: #00CC66;
-   border-bottom: 0;
-   margin: -20px 0 0 130px;
-  }
-  input#soderjanie:not(checked)~ul{
-  height: 20px;
-  width: 150px;
-  }
-  input#soderjanie:checked~ul{
-  height: 380px;
-  width: 150px;
-  }
-  input#soderjanie:checked~ul li>a {
-  display: block;
-  }
-  input#soderjanie:not(checked)~ul li>a {
-  display: none;
-  }
-  input:checked~ul div.strelka.strelka-top {
-  transform: rotate(180deg);
-  transition-duration: 0.2s;
-  transition-timing-function: ease-out; 
-  }
- */
+
   img {
-  clear: right;
-  clear: left;
-  padding: 0;
-  margin: 0;
+  clear: both;
+padding: 0 3px 2px 2px;
   }
 img.tea-way {
 width: 300px;
 height: 224px;
 }
+img.vasnezov {
+height: 180px;
+width: 290px; 
+}
 .tea_rus_links {
 display: none;
+}
+img.tea-kirpich {
+height: 180px;
+width: 300px;
+}
+img.tea-wissozky {
+height: 247px;
+width: 300px;
+}
+img.tea-ussr {
+height: 288px;
+width: 290px;
 }
 }
