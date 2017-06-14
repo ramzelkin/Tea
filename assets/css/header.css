@@ -265,13 +265,18 @@ right: 10px;
        
 }
 		ul.menu_main li {
+		text-align: left;
+		display: block;
 		color: #00CC66;
 		font-size: 14px;
 		border: 0px;
-		width: 170px;
+		 width: 170px;
 		height: 35px;
 		}
-		
+		ul.menu_main li.feedback {
+		width: 90px;
+		height: 18px;
+		}
 
 #modal_form {
 	margin-top: -85%;
