@@ -61,7 +61,7 @@ background-image: url('../img/afrika_tea.jpg');
 
 .description {
 display: none;
-text-align: center;
+/* text-align: center; */
 cursor: pointer;
 font-family: lucida sans unicode;
 text-align: justify;
@@ -185,7 +185,10 @@ input#india:checked+div>.description {
 
 @media screen and (max-width: 510px)  {
      
-
+.description {
+	position: absolute;
+	z-index: 1;
+}
        
 .modul {
 height: 250px;
