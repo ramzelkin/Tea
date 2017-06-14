@@ -230,7 +230,6 @@ right: 10px;
         ul.menu_main li {
         margin: 0;
         padding: 0;
-        
         }
         
         }
@@ -252,7 +251,7 @@ right: 10px;
         list-style:none;
         padding: 35px 5px 0 5px;      
          margin: 0;
-        box-sizing: border-box;
+/*         box-sizing: border-box; */
         width: 170px;
        background-color: rgba(244, 231, 203, 1);
        height: 100%;
