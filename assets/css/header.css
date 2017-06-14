@@ -160,9 +160,11 @@ display: none;
         display: block;
         }
 @media all and (orientation: landscape) {
+/* 
 p {
 padding: 0;
 }
+ */
 
 #modal_form {
 	
