@@ -26,7 +26,7 @@ body {
   text-align: center;
 }
 
-header{
+.header{
 position: relative;
 margin-top: -17px;
 background-color: #00CC66;
@@ -159,6 +159,14 @@ display: none;
  .okno, .submit {
         display: block;
         }
+.copywrite-footer {
+text-align: left;
+padding: 0 10px;
+margin: 0;
+}
+.sitemap-footer {
+float: right;
+}
 @media all and (orientation: landscape) {
 /* 
 p {
