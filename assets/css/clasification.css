@@ -61,7 +61,6 @@ background-image: url('../img/afrika_tea.jpg');
 
 .description {
 display: none;
-/* text-align: center; */
 cursor: pointer;
 font-family: lucida sans unicode;
 text-align: justify;
