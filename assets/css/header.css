@@ -167,29 +167,7 @@ margin: 0;
 .sitemap-footer {
 float: right;
 }
-@media all and (orientation: landscape) {
-/* 
-p {
-padding: 0;
-}
- */
 
-#modal_form {
-	
-}
-/* 
-.submit {
-position: absolute;
-background-color: #FFF;
-top: 240px;
-right: 10px;
-}
- */
- 
-
-
-
-}
 
 @media screen and (max-width: 950px)  {
         /* tablet */ 
@@ -221,7 +199,7 @@ right: 10px;
         
         
         }
-        @media screen and (max-width: 730px)  {
+        @media screen and (max-width: 737px)  {
         
         .menu_main {
         margin-top: 20px;
@@ -341,4 +319,21 @@ right: 10px;
 		
 		}
 
+@media all and (orientation: landscape) and (max-width: 737px) {
 
+#modal_form {
+	left: 2%;
+	margin-top: -130px;
+	margin-left: 0;
+	width: 90%; 
+	height: 70%;
+}
+
+ .modal-h2 {
+ position: absolute;
+ top: -10px;
+ }
+
+
+
+}
