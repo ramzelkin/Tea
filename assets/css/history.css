@@ -35,9 +35,9 @@ input {
   display: none;
 }
 
-input#vostok:checked~ul li#vostok,
-input#evropa:checked~ul li#evropa,
-input#rus:checked~ul li#rus {
+input#vostok:checked~ul li#vost,
+input#evropa:checked~ul li#evr,
+input#rus:checked~ul li#russian {
   background-color: #C3BC90;
 }
 
