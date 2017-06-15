@@ -51,6 +51,8 @@ background: radial-gradient(circle at 6px 7px, #99FFCC, #99FFCC);
 width: 90%;
 height: 100%;
 }
-
-
+#result {
+width: 99%;
+margin: 0;
+}
 }
