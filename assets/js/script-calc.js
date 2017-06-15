@@ -1,13 +1,14 @@
 var prev;
 var alter;
-function vvod(a)  {
-   prev=a;
-   alter = false;
+
+function vvod(a) {
+	prev = a;
+	alter = false;
 	switch (a) {
 		case 1:
 			console.log("1 чашка в день синего чая");
 			printRes("1 чашка в день синего чая");
-			break;	
+			break;
 		case 2:
 			console.log("2 чашки в день улуна");
 			printRes("2 чашки в день улуна");
@@ -36,13 +37,14 @@ function vvod(a)  {
 			console.log("1 литр чая пуэр в неделю");
 			printRes("1 литр чая пуэр в неделю");
 			break;
-		
+
 	}
 
-	
-	}
-	function printRes(a) {
-document.getElementById('result').innerHTML = a;
+
+}
+
+function printRes(a) {
+	document.getElementById('result').innerHTML = a;
 }
 
 function or() {
@@ -52,7 +54,7 @@ function or() {
 			case 1:
 				console.log("4 чашки любого зеленого чая в день");
 				printRes("4 чашки любого зеленого чая в день");
-				break;	
+				break;
 			case 2:
 				console.log("3 чашки белого чая");
 				printRes("3 чашки белого чая");
@@ -82,10 +84,9 @@ function or() {
 				printRes("1 чашка имбирного чая в день");
 				break;
 		}
-		
+
 	}
 	else {
-	vvod(prev);
+		vvod(prev);
 	}
 }
-	

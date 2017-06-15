@@ -1,184 +1,205 @@
-
- 
-
-
 h2 {
-text-align: center;
+  text-align: center;
 }
+
 img {
-padding: 2px 10px;
+  padding: 2px 10px;
 }
+
 img.tea-way {
-width: 400px;
-height: 300px;
-float: left;
+  width: 400px;
+  height: 300px;
+  float: left;
 }
+
 img.veki {
-float: right;
-height: 225px;
-width: 300px;
+  float: right;
+  height: 225px;
+  width: 300px;
 }
+
 img.kliper {
-height: 185px;
-width: 300px;
-float: left;
+  height: 185px;
+  width: 300px;
+  float: left;
 }
 
 .subchapter_history_knopki>li {
-display: inline;
-white-space: nowrap;
-height: 20px;
-width: 205px; 
-text-align: center;
-font-family: lucida console;
-font-size: 17px;
-margin-right: 25px;
-margin-bottom: 5px;
-list-style: none;
-color: #DDC149;
-    text-shadow: #fff -1px -1px 0, 
-                 #333 1px 1px 0;
+  display: inline;
+  white-space: nowrap;
+  height: 20px;
+  width: 205px;
+  text-align: center;
+  font-family: lucida console;
+  font-size: 17px;
+  margin-right: 25px;
+  margin-bottom: 5px;
+  list-style: none;
+  color: #DDC149;
+  text-shadow: #fff -1px -1px 0, #333 1px 1px 0;
 }
+
 .subchapter_history {
-margin: 15px 50px 35px -15px;
-white-space: nowrap;
+  margin: 15px 50px 35px -15px;
+  white-space: nowrap;
 }
 
 .subchapter_history_knopki>li:hover {
-color: #F9B26F;
-cursor: pointer;
+  color: #F9B26F;
+  cursor: pointer;
 }
 
 input {
-display: none;
+  display: none;
 }
-input#vostok:checked~ul li#vostok {
-background-color: #C3BC90;
 
+input#vostok:checked~ul li#vostok {
+  background-color: #C3BC90;
 }
+
 input#evropa:checked~ul li#evropa {
-background-color: #C3BC90;
+  background-color: #C3BC90;
 }
+
 input#rus:checked~ul li#rus {
-background-color: #C3BC90;
+  background-color: #C3BC90;
 }
+
 input#evropa:checked~div.evropa {
-display: block;
+  display: block;
 }
+
 input#evropa:not(checked)~div.evropa {
-display: none;
+  display: none;
 }
+
 input#vostok:checked~div.vostok {
-display: block;
+  display: block;
 }
+
 input#vostok:not(checked)~div.vostok {
-display: none;
+  display: none;
 }
+
 input#rus:checked~div.rus {
-display: block;
+  display: block;
 }
+
 input#rus:not(checked)~div.rus {
-display: none;
+  display: none;
 }
+
 .tea_rus_links li {
-list-style-type: none
+  list-style-type: none
 }
+
 .tea_rus_links {
-float: right;
-height: 210px;
-width: 260px;
-background-color: rgb(244, 231, 203); 
-padding: 0 5px;
-box-shadow: -2px 10px 25px -3px rgba(69,112,61,1);
-margin: 15px 10px;
+  float: right;
+  height: 210px;
+  width: 260px;
+  background-color: rgb(244, 231, 203);
+  padding: 0 5px;
+  box-shadow: -2px 10px 25px -3px rgba(69, 112, 61, 1);
+  margin: 15px 10px;
 }
+
 .tea_rus_links a {
-display: block;
-text-decoration: none;
-font-family: lucida sans unicode;
-font-size: 14px;
-color: #00C166;
-text-shadow: white 0 0 2px;
-margin-left: 20px;
+  display: block;
+  text-decoration: none;
+  font-family: lucida sans unicode;
+  font-size: 14px;
+  color: #00C166;
+  text-shadow: white 0 0 2px;
+  margin-left: 20px;
 }
 
 .tea_rus_links a:hover {
-cursor: pointer;
-color: #F9B26F;
+  cursor: pointer;
+  color: #F9B26F;
 }
+
 img.mongol-tea {
-float: left;
-margin-left: -12px ;
-height: 142px;
-width: 190px;
+  float: left;
+  margin-left: -12px;
+  height: 142px;
+  width: 190px;
 }
+
 img.vasnezov {
-float: right;
-width: 400px;
-height: 248px;
-margin: 2px -3px -9px 0;
+  float: right;
+  width: 400px;
+  height: 248px;
+  margin: 2px -3px -9px 0;
 }
+
 p.soderjanie {
-margin: -5px 0 5px 0;
-text-align: center;
-color: #008E66;
+  margin: -5px 0 5px 0;
+  text-align: center;
+  color: #008E66;
 }
+
 img.kiahta {
-height: 183px;
-width: 270px;
-float: right;
+  height: 183px;
+  width: 270px;
+  float: right;
 }
+
 img.karavan {
-float: left;
-height: 242px;
-width: 350px;
+  float: left;
+  height: 242px;
+  width: 350px;
 }
+
 img.tea-kirpich {
-float: left;
-height: 240px;
-width: 400px;
+  float: left;
+  height: 240px;
+  width: 400px;
 }
+
 img.tea-ussr {
-float: left;
-height: 398px;
-width: 400px;
+  float: left;
+  height: 398px;
+  width: 400px;
 }
+
 img.tea-wissozky {
-float: right;
-height: 313px;
-width: 380px;
+  float: right;
+  height: 313px;
+  width: 380px;
 }
+
 img.east-india-company {
-float: right;
-height: 140px;
-width: 250px;
+  float: right;
+  height: 140px;
+  width: 250px;
 }
+
 img.tea-ussr-2 {
-float: left;
-width: 350px;
-height: 244px;
+  float: left;
+  width: 350px;
+  height: 244px;
 }
+
 img.tea-paketik {
-float: right;
-height: 170px;
-width: 240px;
+  float: right;
+  height: 170px;
+  width: 240px;
 }
 
-@media screen and (max-width: 737px)  {
-
-.subchapter_history_knopki>li{
-display: block;
-text-align: left;
-}
-}
-@media screen and (max-width: 510px) {
-
-  img {
-  width: 100%;
-  clear: both;
-padding: 0 3px 2px 2px;
+@media screen and (max-width: 737px) {
+  .subchapter_history_knopki>li {
+    display: block;
+    text-align: left;
   }
-/* 
+}
+
+@media screen and (max-width: 510px) {
+  img {
+    width: 100%;
+    clear: both;
+    padding: 0 3px 2px 2px;
+  }
+  /* 
 img.tea-way {
 width: 300px;
 height: 224px;

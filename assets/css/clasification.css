@@ -1,201 +1,197 @@
-
 .zaglavie {
-text-align: center;
-margin: 4% 0;
+ text-align: center;
+ margin: 4% 0;
 }
-.modul {
-height: 100%;
-width: 100%;
-}
-h3 {
-text-align: center;
-color: #DDC149;
-text-shadow: #fff -1px -1px 0, 
-                 #333 1px 1px 0;
-font-family: lucida console;
-font-size: 17px;
 
+.modul {
+ height: 100%;
+ width: 100%;
 }
+
+h3 {
+ text-align: center;
+ color: #DDC149;
+ text-shadow: #fff -1px -1px 0, #333 1px 1px 0;
+ font-family: lucida console;
+ font-size: 17px;
+}
+
 .common {
-display: flex;
-justify-content: space-around;
+ display: flex;
+ justify-content: space-around;
 }
+
 .img-raznoobrazie {
-height: 300px;
-width: 300px;
+ height: 300px;
+ width: 300px;
 }
+
 .green {
-background-image: url('../img/green_tea.jpg');
+ background-image: url('../img/green_tea.jpg');
 }
+
 .black {
-background-image: url('../img/black_tea.jpg');
+ background-image: url('../img/black_tea.jpg');
 }
+
 .white {
-background-image: url('../img/white_tea.jpg');
+ background-image: url('../img/white_tea.jpg');
 }
+
 .yellow {
-background-image: url('../img/yellow_tea.jpg');
+ background-image: url('../img/yellow_tea.jpg');
 }
+
 .oolong {
-background-image: url('../img/oolong.jpg');
+ background-image: url('../img/oolong.jpg');
 }
+
 .puer {
-background-image: url('../img/puer.jpg');
+ background-image: url('../img/puer.jpg');
 }
+
 .india {
-background-image: url('../img/tea_india.jpg');
+ background-image: url('../img/tea_india.jpg');
 }
+
 .china {
-background-image: url('../img/china_tea.jpg');
+ background-image: url('../img/china_tea.jpg');
 }
+
 .ceylon {
-background-image: url('../img/ceylon_tea.jpg');
+ background-image: url('../img/ceylon_tea.jpg');
 }
+
 .japan {
-background-image: url('../img/japan_tea.jpg');
+ background-image: url('../img/japan_tea.jpg');
 }
+
 .afrika {
-background-image: url('../img/afrika_tea.jpg');
+ background-image: url('../img/afrika_tea.jpg');
 }
 
 .description {
-display: none;
-cursor: pointer;
-font-family: lucida sans unicode;
-text-align: justify;
-font-size: 1em;
-background-color: rgba(244, 231, 203, 0.8);
+ display: none;
+ cursor: pointer;
+ font-family: lucida sans unicode;
+ text-align: justify;
+ font-size: 1em;
+ background-color: rgba(244, 231, 203, 0.8);
 }
-
 
 @keyframes description {
-0% {
-         		opacity: 0;
-         	}
-         	100% {
-        		 opacity: 1;
-        		 animation-fill-mode: forwards;
-        		 }
-
-}
-@media screen  and (min-width: 801px){ 
-.more {
-display: none;
-}
-.appear:hover .description {
-display: block;
-animation: description 1s;
-}
+ 0% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 1;
+  animation-fill-mode: forwards;
+ }
 }
 
+@media screen and (min-width: 801px) {
+ .more {
+  display: none;
+ }
+ .appear:hover .description {
+  display: block;
+  animation: description 1s;
+ }
+}
 
-
- @media screen and (max-width: 800px)  {
-
+@media screen and (max-width: 800px) {
  .common {
- flex-direction: column;
+  flex-direction: column;
   align-items: center;
  }
-
-
  #label-japan {
- height: 200px;
-width: 200px;
+  height: 200px;
+  width: 200px;
  }
  .more {
-
- color: #00CC66;
- 
-margin-bottom: -35px;
- margin-left: 250px; 
-
+  color: #00CC66;
+  margin-bottom: -35px;
+  margin-left: 250px;
  }
-
- 
-input#china:checked+div>.description {
- display: block;
+ input#china:checked+div>.description {
+  display: block;
  }
  input#china:not(checked)+div>.description {
- display: none;
+  display: none;
  }
-input#ceylon:checked+div>.description {
- display: block;
+ input#ceylon:checked+div>.description {
+  display: block;
  }
  input#ceylon:not(checked)+div>.description {
- display: none;
+  display: none;
  }
-input#afrika:checked+div>.description {
- display: block;
+ input#afrika:checked+div>.description {
+  display: block;
  }
  input#afrika:not(checked)+div>.description {
- display: none;
+  display: none;
  }
-input#india:checked+div>.description {
- display: block;
+ input#india:checked+div>.description {
+  display: block;
  }
  input#india:not(checked)+div>.description {
- display: none;
+  display: none;
  }
  input#japan:checked+div>.description {
- display: block;
+  display: block;
  }
  input#japan:not(checked)+div>.description {
- display: none;
+  display: none;
  }
  input#yellow:checked+div>.description {
- display: block;
+  display: block;
  }
  input#yellow:not(checked)+div>.description {
- display: none;
+  display: none;
  }
  input#black:checked+div>.description {
- display: block;
+  display: block;
  }
  input#black:not(checked)+div>.description {
- display: none;
+  display: none;
  }
  input#oolong:checked+div>.description {
- display: block;
+  display: block;
  }
  input#oolong:not(checked)+div>.description {
- display: none;
+  display: none;
  }
  input#white:checked+div>.description {
- display: block;
+  display: block;
  }
  input#white:not(checked)+div>.description {
- display: none;
+  display: none;
  }
  input#green:checked+div>.description {
- display: block;
+  display: block;
  }
  input#green:not(checked)+div>.description {
- display: none;
+  display: none;
  }
  input#puer:checked+div>.description {
- display: block;
+  display: block;
  }
  input#puer:not(checked)+div>.description {
- display: none;
+  display: none;
  }
- 
- }
+}
 
-@media screen and (max-width: 510px)  {
-     
-.description {
-	position: absolute;
-	z-index: 1;
+@media screen and (max-width: 510px) {
+ .description {
+  position: absolute;
+  z-index: 1;
+ }
+ .modul {
+  height: 250px;
+  width: 300px;
+  margin-bottom: 25%;
+ }
+ h3 {
+  margin: 0;
+ }
 }
-       
-.modul {
-height: 250px;
-width: 300px;
- margin-bottom: 25%;
-}
-h3 {
-margin: 0;
-}
-        
-        
-        }

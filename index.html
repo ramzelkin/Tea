@@ -1,104 +1,106 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Сайт о чае, его разновидностях, истории и культуре чаепития в разных странах </title>
-         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-          <link rel="stylesheet" href="./assets/css/header.css" type="text/css" />
-           <link rel="stylesheet" href="./assets/css/index.css" type="text/css" />
-           <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
-            <script src="./assets/libs/PgwSlider/pgwslider.js"></script>
-            <link rel="stylesheet" href="./assets/libs/PgwSlider/pgwslider.css">
-            <meta name="viewport" content="width=device-width, height=device-height, target-densitydpi=device-dpi, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
-   <script src="./assets/js/okno.js"></script>
-   
-    </head>
-    
-    <body>
-     <div class="header">
-    
-     <input type="checkbox" id="hmt" class="hidden-menu-ticker">
-     
-<label class="btn-menu" for="hmt">
+
+<head>
+ <title>Сайт о чае, его разновидностях, истории и культуре чаепития в разных странах </title>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <link rel="stylesheet" href="./assets/css/header.css" type="text/css" />
+ <link rel="stylesheet" href="./assets/css/index.css" type="text/css" />
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+ <script src="./assets/libs/PgwSlider/pgwslider.js"></script>
+ <link rel="stylesheet" href="./assets/libs/PgwSlider/pgwslider.css">
+ <meta name="viewport" content="width=device-width, height=device-height, target-densitydpi=device-dpi, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+ <script src="./assets/js/okno.js"></script>
+
+</head>
+
+<body>
+ <div class="header">
+
+  <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+
+  <label class="btn-menu" for="hmt">
   <span class="first"></span>
   <span class="second"></span>
   <span class="third"></span>
 </label>
 
- <ul class="menu_main">
+  <ul class="menu_main">
    <li><a href="history.html">Всё о истории чая</a></li>
-  <li><a href="clasification.html">Разновидности</a></li>
+   <li><a href="clasification.html">Разновидности</a></li>
    <li><a href="culture.html">Культура чаепития</a></li>
    <li><a href="health.html">Чай и здоровье</a></li>
    <li class="feedback"><a href="#" id="go">feedback</a></li>
-   </ul>
+  </ul>
 
- <a href="index.html">
-<div class="image"></div>
- <h2 class="name">Teo</h2>
- </a>
-    
- <div id="modal_form">
-	<span id="modal_close">X</span>
-		<form action="" method="post">
-			<h2 class="modal-h2">Нам важно услышать всех!</h2>
-			<p>Здесь можно написать нам, поделиться впечателнями и добавить критики! Оставьте свой электронный адрес и сообщение в формах ниже.</p>
-			<input placeholder="Ваш электронный адрес" class="okno" id="mail" type="text" name="your-name" value="" size="40" />
-			
-			<br>
-				<textarea placeholder="Сообщение" id="msg" rows="3" cols="45" value="" name="text"></textarea>
-			<p style="text-align: center; padding-bottom: 10px;">
-				<input class="submit" type="submit" value="Отправить" />
-			</p>
-		</form>
-</div>
-<div id="overlay"></div>
-     </div> 
-    
-     <div class="wrapper">
-     <div class="slideshow">
-     <ul class="pgwSlider">
-    <li ><img src="./assets/img/honeymoon-in-munnar_test2.jpg"></li>
-    <li ><img src="./assets/img/mountain-tea_test2.jpg"></li>
-    <li ><img src="./assets/img/tea-sunset.jpg"></li>
-     <li ><img src="./assets/img/cloud-tea.jpg"></li>
-     <li ><img src="./assets/img/vietnam-tea.jpg"></li>
-    </ul>
-    </div>
-    <script>
+  <a href="index.html">
+   <div class="image"></div>
+   <h2 class="name">Teo</h2>
+  </a>
+
+  <div id="modal_form">
+   <span id="modal_close">X</span>
+   <form action="" method="post">
+    <h2 class="modal-h2">Нам важно услышать всех!</h2>
+    <p>Здесь можно написать нам, поделиться впечателнями и добавить критики! Оставьте свой электронный адрес и сообщение в формах ниже.</p>
+    <input placeholder="Ваш электронный адрес" class="okno" id="mail" type="text" name="your-name" value="" size="40" />
+
+    <br>
+    <textarea placeholder="Сообщение" id="msg" rows="3" cols="45" value="" name="text"></textarea>
+    <p style="text-align: center; padding-bottom: 10px;">
+     <input class="submit" type="submit" value="Отправить" />
+    </p>
+   </form>
+  </div>
+  <div id="overlay"></div>
+ </div>
+
+ <div class="wrapper">
+  <div class="slideshow">
+   <ul class="pgwSlider">
+    <li><img src="./assets/img/honeymoon-in-munnar_test2.jpg"></li>
+    <li><img src="./assets/img/mountain-tea_test2.jpg"></li>
+    <li><img src="./assets/img/tea-sunset.jpg"></li>
+    <li><img src="./assets/img/cloud-tea.jpg"></li>
+    <li><img src="./assets/img/vietnam-tea.jpg"></li>
+   </ul>
+  </div>
+  <script>
    $(document).ready(function() {
     $('.pgwSlider').pgwSlider();
-});
-    </script>
-    <section class="history">
-    <div class="privet">
+   });
+  </script>
+  <section class="history">
+   <div class="privet">
     <h1 class="main_text">Сайт о самом популярном напитке в мире!</h1>
-    
-    
+
+
     <p>Несколько столетий назад человек сделал первый глоток заваренного чая. С тех пор он снискал славу одного из самых популярных и полезных напитков в мире и стал производиться во многих странах!</p>
 
-<p>Этот сайт посвящён божественному напитку, который почти каждый из нас употребляет изо дня в день, даже не догадываясь, какие тайны хранит этот удивительный и полезнейший нектар чайных листьев.</p>
+    <p>Этот сайт посвящён божественному напитку, который почти каждый из нас употребляет изо дня в день, даже не догадываясь, какие тайны хранит этот удивительный и полезнейший нектар чайных листьев.</p>
 
-<p>Мы расскажем о <a href="clasification.html" title="перейти на страницу разнообразия чая">разнообразии чая</a>, способах заваривания. Вы узнаете удивительную <a href="history.html" title="перейти на страницу истории чая">историю чая</a>.
+    <p>Мы расскажем о <a href="clasification.html" title="перейти на страницу разнообразия чая">разнообразии чая</a>, способах заваривания. Вы узнаете удивительную <a href="history.html" title="перейти на страницу истории чая">историю чая</a>.
 
-<p>Родиной чая считается Китай, где он имеет большое количество наименований в зависимости от сорта и района произрастания. Самое широко используемое наименование &mdash; «ча». «Ча» или по-другому «чха» означает «молодой листочек». Многие народы мира взяли наименование чая именно у китайцев, слегка исказив китайское название и интерпретировав его под свой национальный диалект. В нашу страну чай поступал чаще всего из Северного Китая, поэтому наше слово «чай» близко к северокитайскому произношению.</p>
+     <p>Родиной чая считается Китай, где он имеет большое количество наименований в зависимости от сорта и района произрастания. Самое широко используемое наименование &mdash; «ча». «Ча» или по-другому «чха» означает «молодой листочек». Многие народы мира
+      взяли наименование чая именно у китайцев, слегка исказив китайское название и интерпретировав его под свой национальный диалект. В нашу страну чай поступал чаще всего из Северного Китая, поэтому наше слово «чай» близко к северокитайскому произношению.</p>
 
-<p>Несмотря на общую родину &mdash; Китай, почти в каждой стране существуют свои традиции чаепития. На нашем сайте вы узнаете о <a href="culture.html" title="перейти на страницу о культуре чаепития">культуре чаепития в Японии и Китае</a>, что поможет лучше понять менталитеты этих стран.</p>
+     <p>Несмотря на общую родину &mdash; Китай, почти в каждой стране существуют свои традиции чаепития. На нашем сайте вы узнаете о <a href="culture.html" title="перейти на страницу о культуре чаепития">культуре чаепития в Японии и Китае</a>, что поможет
+      лучше понять менталитеты этих стран.</p>
 
-<p>Загляните на страницу<a href="health.html" title="Перейти на страницу чай и здоровье">чай и здоровье</a>, где вы узнаете о том, как подправить здоровье с помощью горячего отвара.</p>
-<p>Мы будем рады, если вы поделитесь своими впечателниями о прочитанном. Отправить пожелания и замечания можно нажав кнопку <a href="#" id="go">feedback</a>.
+     <p>Загляните на страницу<a href="health.html" title="Перейти на страницу чай и здоровье">чай и здоровье</a>, где вы узнаете о том, как подправить здоровье с помощью горячего отвара.</p>
+     <p>Мы будем рады, если вы поделитесь своими впечателниями о прочитанном. Отправить пожелания и замечания можно нажав кнопку <a href="#" id="go">feedback</a>. Успехов и хорошего чаепития!</p>
 
-Успехов и хорошего чаепития!</p>
 
-  
-    
-    
-    <div>
-     </section>
-    
-    <div class="footer">
-    <p class="copywrite-footer"> &copy 2017 all right reserved
+
+
+     <div>
+  </section>
+
+  <div class="footer">
+   <p class="copywrite-footer"> &copy 2017 all right reserved
     <a href="sitemap.html" class="sitemap-footer" title="открыть карту сайта">карта сайта</a></p>
-    </div>
-     </div>
-    </body>
-    </html>
+  </div>
+  </div>
+</body>
+
+</html>

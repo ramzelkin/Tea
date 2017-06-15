@@ -1,104 +1,106 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Чай и его влияние на здороаье </title>
-         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-          <link rel="stylesheet" href="./assets/css/header.css" type="text/css" />
-           <link rel="stylesheet" href="./assets/css/health.css" type="text/css" />
-            <meta name="viewport" content="width=device-width, height=device-height, target-densitydpi=device-dpi, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
-    
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-     <script src="./assets/js/okno.js"></script>
-      <script type="text/javascript" src="./assets/js/script-calc.js"></script>
-    </head>
-    <body>
-     <div class="header">
-    
-     <input type="checkbox" id="hmt" class="hidden-menu-ticker">
-     
-<label class="btn-menu" for="hmt">
+
+<head>
+ <title>Чай и его влияние на здороаье </title>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <link rel="stylesheet" href="./assets/css/header.css" type="text/css" />
+ <link rel="stylesheet" href="./assets/css/health.css" type="text/css" />
+ <meta name="viewport" content="width=device-width, height=device-height, target-densitydpi=device-dpi, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+ <script src="./assets/js/okno.js"></script>
+ <script type="text/javascript" src="./assets/js/script-calc.js"></script>
+</head>
+
+<body>
+ <div class="header">
+
+  <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+
+  <label class="btn-menu" for="hmt">
   <span class="first"></span>
   <span class="second"></span>
   <span class="third"></span>
 </label>
 
- <ul class="menu_main">
+  <ul class="menu_main">
    <li><a href="history.html">Всё о истории чая</a></li>
-  <li><a href="clasification.html">Разновидности</a></li>
+   <li><a href="clasification.html">Разновидности</a></li>
    <li><a href="culture.html">Культура чаепития</a></li>
-    <li><a href="health.html">Чай и здоровье</a></li>
-  <li class="feedback"><a href="#" id="go">feedback</a></li>
-   </ul>
+   <li><a href="health.html">Чай и здоровье</a></li>
+   <li class="feedback"><a href="#" id="go">feedback</a></li>
+  </ul>
 
- 
- <a href="index.html">
-<div class="image"></div>
- <h2 class="name">Teo</h2>
- </a>
-    
- <div id="modal_form">
-	<span id="modal_close">X</span>
-		<form action="" method="post">
-			<h2 class="modal-h2">Нам важно услышать всех!</h2>
-			<p>Здесь можно написать нам, поделиться впечателнями и добавить критики! Оставьте свой электронный адрес и сообщение в формах ниже.</p>
-				<input placeholder="Ваш электронный адрес" class="okno" id="mail" type="text" name="your-name" value="" size="40" />
-			
-			<br>
-				<textarea placeholder="Сообщение" id="msg" rows="3" cols="45" value="" name="text"></textarea>
-			<p style="text-align: center; padding-bottom: 10px;">
-				<input class="submit" type="submit" value="Отправить" />
-			</p>
-		</form>
-</div>
-<div id="overlay"></div>
-     </div> 
-    <div class="wrapper">
-    <section class="history">
-    <h2 class="tea-health">Чай и здоровье</h2>
-    <p>Чай может не только помочь завязать разговор, утолить жажду, скрасить ожидание, но и подправить здоровье!</p>
-    <p>Выберете нужную кнопку. Если результат вас не устраивает, тогда нажмите кнопку "или", которая предложит альтернативный вариант.</p>
-    <input type="button" id="orel" onclick="vvod(1)">
-    <input type="button" id="lan" onclick="vvod(2)">
-    <input type="button" id="redbull" onclick="vvod(3)">
-    <input type="button" id="cosmo" onclick="vvod(4)">
-    <input type="button" id="volosy" onclick="vvod(5)">
-    <input type="button" id="ascorbinka" onclick="vvod(6)">
-    <input type="button" id="son" onclick="vvod(7)">
-    <input type="button" id="molodost" onclick="vvod(8)">
-   
-    <input type="button" id="or" onclick="or()">
-    
-   
-    <ul class="knopki-calc">
-    
+
+  <a href="index.html">
+   <div class="image"></div>
+   <h2 class="name">Teo</h2>
+  </a>
+
+  <div id="modal_form">
+   <span id="modal_close">X</span>
+   <form action="" method="post">
+    <h2 class="modal-h2">Нам важно услышать всех!</h2>
+    <p>Здесь можно написать нам, поделиться впечателнями и добавить критики! Оставьте свой электронный адрес и сообщение в формах ниже.</p>
+    <input placeholder="Ваш электронный адрес" class="okno" id="mail" type="text" name="your-name" value="" size="40" />
+
+    <br>
+    <textarea placeholder="Сообщение" id="msg" rows="3" cols="45" value="" name="text"></textarea>
+    <p style="text-align: center; padding-bottom: 10px;">
+     <input class="submit" type="submit" value="Отправить" />
+    </p>
+   </form>
+  </div>
+  <div id="overlay"></div>
+ </div>
+ <div class="wrapper">
+  <section class="history">
+   <h2 class="tea-health">Чай и здоровье</h2>
+   <p>Чай может не только помочь завязать разговор, утолить жажду, скрасить ожидание, но и подправить здоровье!</p>
+   <p>Выберете нужную кнопку. Если результат вас не устраивает, тогда нажмите кнопку "или", которая предложит альтернативный вариант.</p>
+   <input type="button" id="orel" onclick="vvod(1)">
+   <input type="button" id="lan" onclick="vvod(2)">
+   <input type="button" id="redbull" onclick="vvod(3)">
+   <input type="button" id="cosmo" onclick="vvod(4)">
+   <input type="button" id="volosy" onclick="vvod(5)">
+   <input type="button" id="ascorbinka" onclick="vvod(6)">
+   <input type="button" id="son" onclick="vvod(7)">
+   <input type="button" id="molodost" onclick="vvod(8)">
+
+   <input type="button" id="or" onclick="or()">
+
+
+   <ul class="knopki-calc">
+
     <label for="orel"><li>Зрение как у орла</li></label>
-   <label for="lan"><li>Стройность лани</li></label>
+    <label for="lan"><li>Стройность лани</li></label>
     <label for="cosmo"><li>Давление космонавта</li></label>
     <label for="redbull"><li>Заряд как от redbull</li></label>
     <label for="volosy"><li>Волосы Рапунцель</li></label>
     <label for="ascorbinka"><li>Польза аскорбинки</li></label>
     <label for="son"><li>Сон спящей красавицы</li></label>
     <label for="molodost"><li>Молодость Белоснежки</li></label>
-    
-<label for="or"><li class="or">или</li></label>
 
-    </ul>
-<div name="result" id="result">жду нажатия кнопки</div>
-        </section>
-      <div class="footer">
-    <p class="copywrite-footer"> &copy 2017 all right reserved
+    <label for="or"><li class="or">или</li></label>
+
+   </ul>
+   <div name="result" id="result">жду нажатия кнопки</div>
+  </section>
+  <div class="footer">
+   <p class="copywrite-footer"> &copy 2017 all right reserved
     <a href="sitemap.html" class="sitemap-footer" title="открыть карту сайта">карта сайта</a></p>
-    </div>
-     </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    </body>
-    </html>
-    
+  </div>
+ </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
