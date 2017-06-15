@@ -220,12 +220,14 @@ input {
         list-style: none;
         padding: 35px 5px 0 5px;
         margin: 0;
-        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
         width: 170px;
         background-color: rgba(244, 231, 203, 1);
         height: 100%;
         top: 0;
         right: -200px;
+        -webkit-transition: right .2s;
         transition: right .2s;
         z-index: 3;
         -webkit-transform: translateZ(0);
@@ -269,6 +271,7 @@ input {
         height: 5px;
         background-color: #fff;
         margin: 5px 0 0;
+        -webkit-transition: all .1s linear .23s;
         transition: all .1s linear .23s;
         position: relative;
     }

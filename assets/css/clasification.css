@@ -17,8 +17,11 @@ h3 {
 }
 
 .common {
+ display: -webkit-box;
+ display: -ms-flexbox;
  display: flex;
- justify-content: space-around;
+ -ms-flex-pack: distribute;
+     justify-content: space-around;
 }
 
 .img-raznoobrazie {
@@ -79,13 +82,25 @@ h3 {
  background-color: rgba(244, 231, 203, 0.8);
 }
 
+@-webkit-keyframes description {
+ 0% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+ }
+}
+
 @keyframes description {
  0% {
   opacity: 0;
  }
  100% {
   opacity: 1;
-  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
  }
 }
 
@@ -95,14 +110,19 @@ h3 {
  }
  .appear:hover .description {
   display: block;
-  animation: description 1s;
+  -webkit-animation: description 1s;
+          animation: description 1s;
  }
 }
-
 @media screen and (max-width: 800px) {
  .common {
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
  }
  #label-japan {
   height: 200px;
