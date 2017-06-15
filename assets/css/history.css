@@ -174,9 +174,11 @@ text-align: left;
 @media screen and (max-width: 510px) {
 
   img {
+  width: 100%;
   clear: both;
 padding: 0 3px 2px 2px;
   }
+/* 
 img.tea-way {
 width: 300px;
 height: 224px;
@@ -200,4 +202,5 @@ img.tea-ussr {
 height: 288px;
 width: 290px;
 }
+ */
 }

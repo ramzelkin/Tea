@@ -9,6 +9,7 @@
     
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
      <script src="./assets/js/okno.js"></script>
+      <script type="text/javascript" src="./assets/js/script-calc.js"></script>
     </head>
     <body>
      <div class="header">
@@ -53,6 +54,36 @@
      </div> 
     <div class="wrapper">
     <section class="history">
+    <h2 class="tea-health">Чай и здоровье</h2>
+    <p>Чай может не только помочь завязать разговор, утолить жажду, скрасить ожидание, но и подправить здоровье!</p>
+    <p>Выберете нужную кнопку. Если результат вас не устраивает, тогда нажмите кнопку "или", которая предложит альтернативный вариант.</p>
+    <input type="button" id="orel" onclick="vvod(1)">
+    <input type="button" id="lan" onclick="vvod(2)">
+    <input type="button" id="redbull" onclick="vvod(3)">
+    <input type="button" id="cosmo" onclick="vvod(4)">
+    <input type="button" id="volosy" onclick="vvod(5)">
+    <input type="button" id="ascorbinka" onclick="vvod(6)">
+    <input type="button" id="son" onclick="vvod(7)">
+    <input type="button" id="molodost" onclick="vvod(8)">
+   
+    <input type="button" id="or" onclick="or()">
+    
+   
+    <ul class="knopki-calc">
+    
+    <label for="orel"><li>Зрение как у орла</li></label>
+   <label for="lan"><li>Стройность лани</li></label>
+    <label for="cosmo"><li>Давление космонавта</li></label>
+    <label for="redbull"><li>Заряд как от redbull</li></label>
+    <label for="volosy"><li>Волосы Рапунцель</li></label>
+    <label for="ascorbinka"><li>Польза аскорбинки</li></label>
+    <label for="son"><li>Сон спящей красавицы</li></label>
+    <label for="molodost"><li>Молодость Белоснежки</li></label>
+    
+<label for="or"><li class="or">или</li></label>
+
+    </ul>
+<div name="result" id="result">жду нажатия кнопки</div>
         </section>
       <div class="footer">
     <p class="copywrite-footer"> &copy 2017 all right reserved
