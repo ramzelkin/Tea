@@ -171,7 +171,6 @@ input {
 }
 
 @media screen and (max-width: 950px) {
-    /* tablet */
     .image {
         display: none;
     }
@@ -188,7 +187,6 @@ input {
         border: 1px solid;
         width: 180px;
         text-align: center;
-        /* padding: 0; */
         margin-right: 0px;
         white-space: nowrap;
     }
@@ -206,7 +204,6 @@ input {
 }
 
 @media screen and (max-width: 510px) {
-    /* mobile*/
     body {
         background-image: url('');
     }

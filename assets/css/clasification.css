@@ -113,69 +113,31 @@ h3 {
   margin-bottom: -35px;
   margin-left: 250px;
  }
+
+ input#puer:checked+div>.description,
+ input#green:checked+div>.description,
+ input#white:checked+div>.description,
+ input#oolong:checked+div>.description,
+ input#black:checked+div>.description,
+ input#yellow:checked+div>.description, 
+ input#japan:checked+div>.description, 
+ input#india:checked+div>.description,
+ input#afrika:checked+div>.description,
+ input#ceylon:checked+div>.description,
  input#china:checked+div>.description {
   display: block;
  }
- input#china:not(checked)+div>.description {
-  display: none;
- }
- input#ceylon:checked+div>.description {
-  display: block;
- }
- input#ceylon:not(checked)+div>.description {
-  display: none;
- }
- input#afrika:checked+div>.description {
-  display: block;
- }
- input#afrika:not(checked)+div>.description {
-  display: none;
- }
- input#india:checked+div>.description {
-  display: block;
- }
- input#india:not(checked)+div>.description {
-  display: none;
- }
- input#japan:checked+div>.description {
-  display: block;
- }
- input#japan:not(checked)+div>.description {
-  display: none;
- }
- input#yellow:checked+div>.description {
-  display: block;
- }
- input#yellow:not(checked)+div>.description {
-  display: none;
- }
- input#black:checked+div>.description {
-  display: block;
- }
- input#black:not(checked)+div>.description {
-  display: none;
- }
- input#oolong:checked+div>.description {
-  display: block;
- }
- input#oolong:not(checked)+div>.description {
-  display: none;
- }
- input#white:checked+div>.description {
-  display: block;
- }
- input#white:not(checked)+div>.description {
-  display: none;
- }
- input#green:checked+div>.description {
-  display: block;
- }
- input#green:not(checked)+div>.description {
-  display: none;
- }
- input#puer:checked+div>.description {
-  display: block;
- }
+ 
+ input#china:not(checked)+div>.description,
+ input#ceylon:not(checked)+div>.description,
+ input#afrika:not(checked)+div>.description,
+ input#india:not(checked)+div>.description,
+ input#japan:not(checked)+div>.description,
+ input#yellow:not(checked)+div>.description,
+ input#black:not(checked)+div>.description,
+ input#oolong:not(checked)+div>.description,
+ input#white:not(checked)+div>.description,
+ input#green:not(checked)+div>.description,
  input#puer:not(checked)+div>.description {
   display: none;
  }

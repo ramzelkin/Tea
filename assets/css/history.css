@@ -6,24 +6,6 @@ img {
   padding: 2px 10px;
 }
 
-img.tea-way {
-  width: 400px;
-  height: 300px;
-  float: left;
-}
-
-img.veki {
-  float: right;
-  height: 225px;
-  width: 300px;
-}
-
-img.kliper {
-  height: 185px;
-  width: 300px;
-  float: left;
-}
-
 .subchapter_history_knopki>li {
   display: inline;
   white-space: nowrap;
@@ -53,39 +35,21 @@ input {
   display: none;
 }
 
-input#vostok:checked~ul li#vostok {
-  background-color: #C3BC90;
-}
-
-input#evropa:checked~ul li#evropa {
-  background-color: #C3BC90;
-}
-
+input#vostok:checked~ul li#vostok,
+input#evropa:checked~ul li#evropa,
 input#rus:checked~ul li#rus {
   background-color: #C3BC90;
 }
 
-input#evropa:checked~div.evropa {
-  display: block;
-}
-
-input#evropa:not(checked)~div.evropa {
-  display: none;
-}
-
-input#vostok:checked~div.vostok {
-  display: block;
-}
-
-input#vostok:not(checked)~div.vostok {
-  display: none;
-}
-
+input#evropa:checked~div.evropa,
+input#vostok:checked~div.vostok,
 input#rus:checked~div.rus {
   display: block;
 }
 
-input#rus:not(checked)~div.rus {
+input#evropa:not(checked)~div.evropa,
+input#vostok:not(checked)~div.vostok,
+ input#rus:not(checked)~div.rus {
   display: none;
 }
 
@@ -118,70 +82,94 @@ input#rus:not(checked)~div.rus {
   color: #F9B26F;
 }
 
-img.mongol-tea {
-  float: left;
-  margin-left: -12px;
-  height: 142px;
-  width: 190px;
-}
-
-img.vasnezov {
-  float: right;
-  width: 400px;
-  height: 248px;
-  margin: 2px -3px -9px 0;
-}
-
 p.soderjanie {
   margin: -5px 0 5px 0;
   text-align: center;
   color: #008E66;
 }
 
-img.kiahta {
-  height: 183px;
-  width: 270px;
+img.kliper,
+img.tea-way,
+img.mongol-tea,
+img.karavan,
+img.tea-kirpich,
+img.tea-ussr,
+img.tea-ussr-2 {
+  float: left;
+}
+
+img.veki,
+img.kiahta,
+img.vasnezov,
+img.tea-paketik,
+img.east-india-company,
+img.tea-wissozky {
   float: right;
 }
 
+img.tea-way {
+  width: 400px;
+  height: 300px;
+}
+
+img.veki {
+  height: 225px;
+  width: 300px;
+}
+
+img.kliper {
+  height: 185px;
+  width: 300px;
+}
+
+img.mongol-tea {
+  margin-left: -12px;
+  height: 142px;
+  width: 190px;
+}
+
+img.vasnezov {
+  width: 400px;
+  height: 248px;
+  margin: 2px -3px -9px 0;
+}
+
+img.kiahta {
+  height: 183px;
+  width: 270px;
+}
+
 img.karavan {
-  float: left;
   height: 242px;
   width: 350px;
 }
 
 img.tea-kirpich {
-  float: left;
   height: 240px;
   width: 400px;
 }
 
 img.tea-ussr {
-  float: left;
   height: 398px;
   width: 400px;
 }
 
 img.tea-wissozky {
-  float: right;
   height: 313px;
   width: 380px;
 }
 
 img.east-india-company {
-  float: right;
   height: 140px;
   width: 250px;
 }
 
 img.tea-ussr-2 {
-  float: left;
   width: 350px;
   height: 244px;
 }
 
 img.tea-paketik {
-  float: right;
   height: 170px;
   width: 240px;
 }
@@ -199,29 +187,4 @@ img.tea-paketik {
     clear: both;
     padding: 0 3px 2px 2px;
   }
-  /* 
-img.tea-way {
-width: 300px;
-height: 224px;
-}
-img.vasnezov {
-height: 180px;
-width: 290px; 
-}
-.tea_rus_links {
-display: none;
-}
-img.tea-kirpich {
-height: 180px;
-width: 300px;
-}
-img.tea-wissozky {
-height: 247px;
-width: 300px;
-}
-img.tea-ussr {
-height: 288px;
-width: 290px;
-}
- */
 }

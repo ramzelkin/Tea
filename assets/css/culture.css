@@ -30,7 +30,6 @@ strong {
 }
 
 @media screen and (max-width: 510px) {
-	/* mobile*/
 	.china_ceremony,
 	.japan_ceremony {
 		clear: both;
@@ -38,9 +37,5 @@ strong {
 	iframe {
 		width: 300px;
 		height: 168px
-	}
-	.tea_ceremony {
-		margin: 20px 5%;
-		white-space: normal;
 	}
 }
