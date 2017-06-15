@@ -13,7 +13,6 @@ margin: 2px;
 text-align: center;
 display: inline-block;
 font-size: 17px;
-/* background: radial-gradient(circle at 6px 7px, #6699CC, #9999CC ); */
 box-shadow: -2px 10px 25px -3px rgba(69,112,61,1);
 padding: 0 3px;
 background: radial-gradient(circle at 6px 7px, #CCFFCC, #F4E7CB);
@@ -44,4 +43,14 @@ text-align: center;
 height: 25px;
 width: 50px;
 background: radial-gradient(circle at 6px 7px, #99FFCC, #99FFCC);
+}
+
+
+@media screen and (max-width: 550px) {
+.knopki-calc {
+width: 90%;
+height: 100%;
+}
+
+
 }
