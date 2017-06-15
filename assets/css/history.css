@@ -108,73 +108,6 @@ img.tea-wissozky {
   float: right;
 }
 
-img.tea-way {
-  width: 400px;
-  height: 300px;
-}
-
-img.veki {
-  height: 225px;
-  width: 300px;
-}
-
-img.kliper {
-  height: 185px;
-  width: 300px;
-}
-
-img.mongol-tea {
-  margin-left: -12px;
-  height: 142px;
-  width: 190px;
-}
-
-img.vasnezov {
-  width: 400px;
-  height: 248px;
-  margin: 2px -3px -9px 0;
-}
-
-img.kiahta {
-  height: 183px;
-  width: 270px;
-}
-
-img.karavan {
-  height: 242px;
-  width: 350px;
-}
-
-img.tea-kirpich {
-  height: 240px;
-  width: 400px;
-}
-
-img.tea-ussr {
-  height: 398px;
-  width: 400px;
-}
-
-img.tea-wissozky {
-  height: 313px;
-  width: 380px;
-}
-
-img.east-india-company {
-  height: 140px;
-  width: 250px;
-}
-
-img.tea-ussr-2 {
-  width: 350px;
-  height: 244px;
-}
-
-img.tea-paketik {
-  height: 170px;
-  width: 240px;
-}
-
 @media screen and (max-width: 737px) {
   .subchapter_history_knopki>li {
     display: block;
@@ -184,8 +117,11 @@ img.tea-paketik {
 
 @media screen and (max-width: 510px) {
   img {
-    width: 100%;
+    max-width: 100%;
     clear: both;
     padding: 0 3px 2px 2px;
+  }
+  .tea_rus_links {
+  display: none;
   }
 }
